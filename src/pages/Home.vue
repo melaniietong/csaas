@@ -137,7 +137,7 @@ watch(
           @click="openDrawer(c, c.id)"
           class="relative z-0 rounded-2xl bg-neutral-100 p-4 hover:-translate-y-0.5 flex flex-col items-start gap-2 max-h-50"
         >
-          <div class="flex flex-col items-start gap-1">
+          <div class="flex flex-col items-start gap-1 text-left">
             <h2>{{ c.name }}</h2>
             <span class="sub-label">{{ c.hq }}</span>
           </div>
