@@ -1,1 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import 'tailwindcss';
+
+@layer base {
+  button {
+    @apply cursor-pointer transition ease-out hover:ring-2 hover:ring-cyan-500;
+  }
+
+  input {
+    @apply transition ease-out hover:ring-2 hover:ring-cyan-500;
+  }
+
+  button:focus-visible,
+  input:focus-visible,
+  a:focus-visible {
+    outline: none;
+    @apply transition ease-out ring-2 ring-cyan-500;
+  }
+
+  h1 {
+    font-family: 'Bungee', system-ui, sans-serif;
+    @apply text-neutral-800 text-3xl tracking-wide;
+  }
+
+  h2 {
+    @apply text-neutral-800 font-bold;
+  }
+
+  p {
+    @apply text-neutral-800 text-base;
+  }
+
+  a {
+    @apply underline text-cyan-600 hover:text-cyan-500 transition-colors duration-200 ease-out cursor-pointer;
+  }
+
+  .label {
+    @apply font-semibold uppercase tracking-wide text-sm;
+  }
+
+  .sub-label {
+    @apply font-semibold uppercase tracking-wide text-xs;
+  }
+
+  .sub-label-text {
+    @apply text-xs;
+  }
+
+  .helper {
+    @apply text-teal-700;
+  }
+
+  .helper-text {
+    @apply text-sm;
+  }
+
+  .icon-sm {
+    @apply h-4 w-4;
+  }
+
+  .icon-base {
+    @apply h-5 w-5;
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "title": "Canadian SaaS 🍁",
+  "tagline": "Discover software built right here in Canada",
+  "search": {
+    "noResults": "Nothing here… just wide-open prairie. Try another search term!",
+    "placeholders": [
+      "Facebook",
+      "Social media",
+      "Amazon",
+      "Point of sale",
+      "Stripe",
+      "Marketplace",
+      "Microsoft"
+    ]
+  },
+  "drawer": {
+    "header": {
+      "website": "Website"
+    },
+    "slider": {
+      "simple": "Simple",
+      "moreInfo": "More info"
+    },
+    "content": {
+      "noInfo": "Not applicable or there is no public information available.",
+      "version": "Version",
+      "unknownDate": "Unknown date",
+      "parentCompany": "Parent company"
+    },
+    "categories": {
+      "cloud": {
+        "title": "Who's storing my data?",
+        "desc": "These companies host and store the core data that makes the product work, including user accounts, files, records, and databases. They control where data physically lives and which countries’ laws apply to it."
+      },
+      "payments": {
+        "title": "Who's processing my payments?",
+        "desc": "These companies handle money transactions, including card payments and billing. They see payment metadata and control how funds move between customers and businesses. Payment processors may be subject to financial regulations and government reporting requirements in their home countries."
+      },
+      "analytics": {
+        "title": "Who's tracking my behaviour?",
+        "desc": "These companies may collect, process, and analyze your activity data such as: page visits, clicks, usage patterns, errors, and feedback. They use this data to measure performance, improve products, or support marketing. They may not permanently store data, but they still receive, process, and make decisions using your data."
+      }
+    }
+  },
+  "about": {
+    "1": {
+      "title": "What is this project?",
+      "content": [
+        "This website is an open-source project that enables Canadians to discover Canadian software while also increasing transparency around how data is stored, processed, and tracked.",
+        "Our mission:",
+        "- Support the Canadian software industry by listing homegrown companies Canadians can use and build careers with.",
+        "- Map the dependencies behind Canadian digital services so Canadians can better understand sovereignty risks and data privacy implications."
+      ]
+    },
+    "2": {
+      "title": "How are companies included?",
+      "content": [
+        "Companies are listed based on 2 criterias only:",
+        "- They produce software products",
+        "- Their headquarter is located in Canada",
+        "Listings on this website do not constitute an endorsement or recommendation by the project or its contributors."
+      ]
+    },
+    "3": {
+      "title": "How is this data sourced?",
+      "content": [
+        "All information is compiled from publicly available official sources, including:",
+        "- Privacy policies",
+        "- Vendor / sub-processor lists",
+        "- Terms of conditions / service",
+        "- Company disclosures",
+        "These sources are interpreted to show where data, payments, and tracking services may be handled."
+      ]
+    },
+    "4": {
+      "title": "How accurate is the information?",
+      "content": [
+        "We aim to keep all information as accurate and up to date as possible, but there are inherent limitations to publicly sourced research:",
+        "- We are external observers and do not have access to companies’ internal systems and operations",
+        "- Official sources may be incomplete or outdated.",
+        "- Companies may use the same third-party services in different ways depending on their specific configurations"
+      ]
+    },
+    "5": {
+      "title": "How can I support the project?",
+      "content": [
+        "This is a volunteer-driven, open-source project, and community support plays a big role in keeping it accurate and growing!",
+        "If you’d like to get involved, please read our Github contributing guide to get started.",
+        "You don’t need to know how to code to help out. There are many ways to contribute, from providing feedback, researching data, improving how information is communicated, to design and more. If you have an idea, we’d love to hear from you!",
+        "If you notice any errors on the website, please submit a GitHub issue so it can be addressed."
+      ]
+    }
+  },
+  "footer": {
+    "learnMore": "Learn more",
+    "tagline": "An open source project"
+  },
+  "countries": {
+    "regionalized": "Regionalized",
+    "unknown": "Unknown",
+    "bg": "Bulgaria",
+    "ca": "Canada",
+    "de": "Germany",
+    "gb": "United Kingdom",
+    "il": "Israel",
+    "nl": "Netherlands",
+    "nz": "New Zealand",
+    "se": "Sweden",
+    "us": "United States"
+  }
+}
