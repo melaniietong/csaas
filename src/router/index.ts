@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHistory, createWebHashHistory, type RouteRecordRaw } from 'vue-router'
 import Home from '@/pages/Home.vue'
 import About from '@/pages/About.vue'
 
@@ -21,7 +21,10 @@ const routes: RouteRecordRaw[] = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history:
+    import.meta.env.VITE_GH_PAGES === 'true'
+      ? createWebHashHistory(import.meta.env.BASE_URL)
+      : createWebHistory(import.meta.env.BASE_URL),
   routes,
 })
 
