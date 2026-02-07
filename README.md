@@ -1,51 +1,28 @@
-# Vue + TS Template
+# Canadian SaaS 🍁
 
-## Features
+> Discover software built right here in Canada
 
-- [Vue](https://vuejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vite.dev/)
-- [Vue Router](https://router.vuejs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Font Awesome](https://docs.fontawesome.com/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
+## Overview
 
-## Setup
+Canadian SaaS is an open-source project that enables Canadians to discover Canadian software while also increasing transparency around how data is stored, processed, and tracked.
 
-Versions:
+Our mission:
 
-```
-Node: 24.9.0
-NPM: 11.6.0
-```
+- Support the Canadian software industry by listing homegrown companies Canadians can use and build careers with.
+- Map the dependencies behind Canadian digital services so Canadians can better understand sovereignty risks and data privacy implications.
 
-Install:
+## Contributing
 
-```bash
-npm i
-```
+We welcome anyone interested in our project to jump in and help out.
 
-To run the app locally with hot-reload:
+You don't need to know how to code to help out, there are many ways to contribute:
 
-```bash
-npm run dev
-```
+| Non-technical examples                                                                                                                   | Technical examples                                                                                          |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| UI/UX design, providing feedback, improving copy/communication, planning new features, reporting bugs, auditing our data, graphic design | Fixing bugs, adding new features, refactoring, improving performance, data optimization, creating pipelines |
 
-To compile and minify:
+Get started by reading our [contributing guide](./docs/CONTRIBUTING.md).
 
-```bash
-npm run build
-```
+## Report a problem
 
-To lint:
-
-```bash
-npm run lint
-```
-
-To format:
-
-```bash
-npm run format
-```
+If you notice any errors on the website, please submit a [GitHub issue](https://github.com/melaniietong/csaas/issues/new) so it can be addressed.
