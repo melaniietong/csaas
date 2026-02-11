@@ -32,7 +32,7 @@ If you'd like to work on it, comment on the issue:
 - Provide an estimated completion date
 - You'll then be assigned to the issue.
 
-For technical contributors: You might also find it help to read our [architecture](./ARCHITECTURE.md) and [setup](./SETUP.md) guide.
+For technical contributors: You might also find it help to read our [architecture](/docs/ARCHITECTURE.md) and [setup](/docs/SETUP.md) guide.
 
 Non-technical contributors: use the issue itself to track and share your work.
 

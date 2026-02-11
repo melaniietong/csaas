@@ -21,7 +21,7 @@ You don't need to know how to code to help out, there are many ways to contribut
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | UI/UX design, providing feedback, improving copy/communication, planning new features, reporting bugs, auditing our data, graphic design | Fixing bugs, adding new features, refactoring, improving performance, adding data, data optimization, creating pipelines |
 
-Get started by reading our [contributing guide](./docs/CONTRIBUTING.md).
+Get started by reading our [contributing guide](/docs/CONTRIBUTING.md).
 
 ## Report a problem
 
