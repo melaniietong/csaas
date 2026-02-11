@@ -768,6 +768,145 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  secoda: {
+    name: 'Secoda',
+    desc: 'Redefine data governance and trust with AI built on a foundation of data cataloging, lineage, observability, and quality -all enriched by your business context.',
+    link: 'https://www.secoda.co/',
+    hq: 'Toronto, ON',
+    tagIds: [10, 17, 25],
+    competitors: [
+      'Atlan',
+      'Alation',
+      'CastorDoc',
+      'Select Star',
+      'Metaphor Data',
+      'data.world',
+      'Stemma',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'aws',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'customerio',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'fivetran',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'sendgrid',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'hightouch',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'cloudflare',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'intercom',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'openai',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'anthropic',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'grafana',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'braintrust',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'google',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'sentry',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'launchDarkly',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'salesforce',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'stripe',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'retool',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'segment',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'snowflake',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'mixpanel',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'fullstory',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'gong',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+        {
+          id: 'clay',
+          source: 'https://www.secoda.co/subprocessors/',
+          lastUpdated: '2026-02-11T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
@@ -777,7 +916,7 @@ export default data
     name: '',
     desc: '',
     link: '',
-    hq: ',
+    hq: '',
     tagIds: [],
     competitors: [],
     subprocessors: {

@@ -25,6 +25,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Amplitude',
     location: 'us',
   },
+  anthropic: {
+    name: 'Anthropic',
+    location: 'us',
+  },
   appcues: {
     name: 'Appcues',
     location: 'us',
@@ -61,8 +65,16 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  braintrust: {
+    name: 'Braintrust',
+    location: 'us',
+  },
   bugsnag: {
     name: 'Bugsnag',
+    location: 'us',
+  },
+  clay: {
+    name: 'Clay',
     location: 'us',
   },
   cloudflare: {
@@ -76,6 +88,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   crazyEgg: {
     name: 'CrazyEgg',
     location: 'us',
+  },
+  customerio: {
+    name: 'Customer.io',
+    location: 'us',
+    parentCompany: {
+      name: 'Peaberry Software Inc.',
+      location: 'us',
+    },
   },
   databricks_regionalized: {
     name: 'Databricks',
@@ -113,6 +133,14 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  fivetran: {
+    name: 'Fivetran',
+    location: 'us',
+  },
+  fullstory: {
+    name: 'FullStory',
+    location: 'us',
+  },
   gcp: {
     name: 'Google Cloud',
     location: 'us',
@@ -133,6 +161,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Google',
     location: 'us',
   },
+  gong: {
+    name: 'Gong',
+    location: 'us',
+  },
+  grafana: {
+    name: 'Grafana Labs',
+    location: 'us',
+  },
   hetzner: {
     name: 'Hetzner',
     location: 'de',
@@ -140,6 +176,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       name: 'ENSoXX Holding AG',
       location: 'de',
     },
+  },
+  hightouch: {
+    name: 'Carry Technologies (Hightouch)',
+    location: 'us',
   },
   hubspot: {
     name: 'HubSpot',
@@ -167,6 +207,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   knock: {
     name: 'Knock',
+    location: 'us',
+  },
+  launchDarkly: {
+    name: 'LaunchDarkly (Catamorphic Co.)',
     location: 'us',
   },
   looker: {
@@ -205,8 +249,16 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Metabase',
     location: 'us',
   },
+  mixpanel: {
+    name: 'Mixpanel',
+    location: 'us',
+  },
   mongodb: {
     name: 'MongoDB',
+    location: 'us',
+  },
+  openai: {
+    name: 'OpenAI',
     location: 'us',
   },
   pendo: {
@@ -235,6 +287,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   qualtrics: {
     name: 'Qualtrics',
+    location: 'us',
+  },
+  retool: {
+    name: 'Retool',
+    location: 'us',
+  },
+  salesforce: {
+    name: 'Salesforce',
     location: 'us',
   },
   salesforce_canada: {
@@ -275,6 +335,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   sisense: {
     name: 'Sisense',
+    location: 'us',
+  },
+  snowflake: {
+    name: 'Snowflake',
     location: 'us',
   },
   spreedly: {
