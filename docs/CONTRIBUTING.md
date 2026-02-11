@@ -16,7 +16,7 @@ https://docs.github.com/en/issues
 
 ## Contributing
 
-1. Start by [creating an issue](https://github.com/melaniietong/csaas/issues/new)
+1. Start by [creating an issue](https://github.com/canadian-software/web/issues/new/)
 
 Whether you’re reporting a bug or proposing a feature, open an issue first. This helps prevent duplicated or wasted work.
 
