@@ -684,18 +684,101 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  unito: {
+    name: 'Unito',
+    desc: 'Sync data between tools in real time with Unito’s no-code, two-way integrations. Keep teams aligned across Jira, Asana, ServiceNow, Smartsheet, and more.',
+    link: 'https://unito.io/',
+    hq: 'Montréal, QB',
+    tagIds: [5, 17, 25],
+    competitors: [
+      'Zapier',
+      'Make (Integromat)',
+      'Workato',
+      'Tray.io',
+      'n8n',
+      'SyncSpider',
+      'Celigo',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'aws',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+        {
+          id: 'appcues',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+        {
+          id: 'cloudflare',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+        {
+          id: 'datadog',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+        {
+          id: 'hubspot',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+        {
+          id: 'mongodb',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+        {
+          id: 'auth0',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+        {
+          id: 'knock',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'stripe',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'amplitude',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+        {
+          id: 'segment',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+        {
+          id: 'crazyEgg',
+          source: 'https://unito.io/sub-processors/',
+          lastUpdated: '2025-04-22T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
 
 /*
-
-'lightspeed-commerce': {
-    name: 'Lightspeed Commerce',
-    desc: ' Lightspeed is the unified point of sale and payments platform powering the in-person economy.',
-    link: 'https://www.lightspeedhq.com/',
-    hq: 'Montréal, QB',
-    tagIds: [1, 2, 23, 25],
+  '': {
+    name: '',
+    desc: '',
+    link: '',
+    hq: ',
+    tagIds: [],
     competitors: [],
     subprocessors: {
       cloud: [
@@ -709,5 +792,4 @@ export default data
       ],
     },
   },
-
 */

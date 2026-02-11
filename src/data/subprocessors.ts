@@ -21,9 +21,21 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  amplitude: {
+    name: 'Amplitude',
+    location: 'us',
+  },
   appcues: {
     name: 'Appcues',
     location: 'us',
+  },
+  auth0: {
+    name: 'Auth0',
+    location: 'us',
+    parentCompany: {
+      name: 'Okta',
+      location: 'us',
+    },
   },
   aws: {
     name: 'Amazon Web Services',
@@ -49,6 +61,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  bugsnag: {
+    name: 'Bugsnag',
+    location: 'us',
+  },
   cloudflare: {
     name: 'Cloudflare',
     location: 'us',
@@ -57,8 +73,8 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'CloudStrap',
     location: 'bg',
   },
-  bugsnag: {
-    name: 'Bugsnag',
+  crazyEgg: {
+    name: 'CrazyEgg',
     location: 'us',
   },
   databricks_regionalized: {
@@ -125,6 +141,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'de',
     },
   },
+  hubspot: {
+    name: 'HubSpot',
+    location: 'us',
+  },
   infinicept: {
     name: 'Infinicept',
     location: 'us',
@@ -143,6 +163,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   klaviyo: {
     name: 'Klaviyo',
+    location: 'us',
+  },
+  knock: {
+    name: 'Knock',
     location: 'us',
   },
   looker: {
@@ -179,6 +203,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   metabase: {
     name: 'Metabase',
+    location: 'us',
+  },
+  mongodb: {
+    name: 'MongoDB',
     location: 'us',
   },
   pendo: {
