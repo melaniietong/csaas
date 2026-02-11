@@ -10,6 +10,11 @@ type SubprocessorData = {
   }
 }
 
+type SubprocessorResolved = SubprocessorData & {
+  source: string
+  lastUpdated: string
+}
+
 type SubprocessorId = keyof typeof subprocessors
 
-export type { SubprocessorId, SubprocessorData }
+export type { SubprocessorId, SubprocessorData, SubprocessorResolved }

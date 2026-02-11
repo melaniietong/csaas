@@ -1,16 +1,11 @@
 import { subprocessors } from '@/data/subprocessors'
 import content from '@/data/content-en.json'
 import type { Subprocessor } from '@/types/company'
-import type { SubprocessorData } from '@/types/subprocessor'
+import type { SubprocessorData, SubprocessorResolved } from '@/types/subprocessor'
 
 const resolveSubprocessors = (
   refs: Subprocessor[] = []
-): Array<
-  SubprocessorData & {
-    source: string
-    lastUpdated: string
-  }
-> =>
+): SubprocessorResolved[] =>
   refs.map((ref) => {
     const base =
       subprocessors[ref.id] ??

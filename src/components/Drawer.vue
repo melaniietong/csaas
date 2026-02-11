@@ -13,7 +13,7 @@ import tags from '@/data/tags.json'
 
 import type { PropType } from 'vue'
 import type { Company, Subprocessor } from '@/types/company'
-import type { SubprocessorData } from '@/types/subprocessor'
+import type { SubprocessorResolved } from '@/types/subprocessor'
 
 import { formatDate } from '@/utils/dates'
 import { resolveSubprocessors } from '@/utils/resolve-subprocessors'
@@ -43,11 +43,6 @@ const close = (): void => {
 
 const toggleHelper = (): void => {
   showHelper.value = !showHelper.value
-}
-
-type SubprocessorResolved = SubprocessorData & {
-  source: string
-  lastUpdated: string
 }
 
 const groupByLocation = (
