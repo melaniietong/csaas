@@ -33,7 +33,7 @@ const selectedCompany = ref<Company | null>(
 const placeholders = content.search.placeholders
 const placeholder =
   placeholders[Math.floor(Math.random() * placeholders.length)] + '...'
-  
+
 const tagMap: Record<string, string> = tags as Record<string, string>
 
 const companyList = computed(() => {
@@ -47,7 +47,9 @@ const companyList = computed(() => {
       c.name.toLowerCase().includes(q) ||
       c.hq.toLowerCase().includes(q) ||
       c.desc.toLowerCase().includes(q) ||
-      c.competitors.some((competitor) => competitor.toLowerCase().includes(q)) ||
+      c.competitors.some((competitor) =>
+        competitor.toLowerCase().includes(q)
+      ) ||
       c.tagIds.some((tagId) =>
         (tagMap[String(tagId)] ?? '').toLowerCase().includes(q)
       )
