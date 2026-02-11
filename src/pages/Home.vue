@@ -7,6 +7,7 @@ import SiteHeader from '@/components/SiteHeader.vue'
 
 import content from '@/data/content-en.json'
 import data from '@/data/data'
+import tags from '@/data/tags.json'
 
 import type { Company } from '@/types/company'
 
@@ -32,6 +33,8 @@ const selectedCompany = ref<Company | null>(
 const placeholders = content.search.placeholders
 const placeholder =
   placeholders[Math.floor(Math.random() * placeholders.length)] + '...'
+  
+const tagMap: Record<string, string> = tags as Record<string, string>
 
 const companyList = computed(() => {
   const q = query.value.trim().toLowerCase()
@@ -44,7 +47,10 @@ const companyList = computed(() => {
       c.name.toLowerCase().includes(q) ||
       c.hq.toLowerCase().includes(q) ||
       c.desc.toLowerCase().includes(q) ||
-      c.competitors.some((competitor) => competitor.toLowerCase().includes(q))
+      c.competitors.some((competitor) => competitor.toLowerCase().includes(q)) ||
+      c.tagIds.some((tagId) =>
+        (tagMap[String(tagId)] ?? '').toLowerCase().includes(q)
+      )
   )
 })
 
