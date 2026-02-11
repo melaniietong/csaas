@@ -26,3 +26,5 @@ Get started by reading our [contributing guide](./docs/CONTRIBUTING.md).
 ## Report a problem
 
 If you notice any errors on the website, please submit a [GitHub issue](https://github.com/canadian-software/web/issues/new/) so it can be addressed.
+
+For sensitive inquiries, you can email us at `canadian.software.os [at] gmail [dot] com`.
