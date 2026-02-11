@@ -178,7 +178,7 @@ const subprocessors: Record<string, SubprocessorData> = {
     },
   },
   hightouch: {
-    name: 'Carry Technologies (Hightouch)',
+    name: 'Hightouch',
     location: 'us',
   },
   hubspot: {
@@ -210,7 +210,7 @@ const subprocessors: Record<string, SubprocessorData> = {
     location: 'us',
   },
   launchDarkly: {
-    name: 'LaunchDarkly (Catamorphic Co.)',
+    name: 'LaunchDarkly',
     location: 'us',
   },
   looker: {
