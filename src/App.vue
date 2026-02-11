@@ -8,6 +8,14 @@ const route = useRoute()
 
 const isAboutPage = computed(() => route.name === 'about')
 
+const goToGithub = (): void => {
+  window.open(
+    'https://github.com/canadian-software/web',
+    '_blank',
+    'noopener,noreferrer'
+  )
+}
+
 document.title = content.title
 </script>
 
@@ -28,12 +36,14 @@ document.title = content.title
         <span class="sub-label">{{ content.footer.learnMore }}</span>
       </button>
 
-      <span
+      <button
+        type="button"
         :class="isAboutPage ? 'flex' : 'hidden sm:flex'"
-        class="items-center justify-center sub-label"
+        class="items-center justify-center"
+        @click="goToGithub"
       >
-        {{ content.footer.tagline }}
-      </span>
+        <span class="sub-label">{{ content.footer.tagline }}</span>
+      </button>
     </div>
   </div>
 </template>
