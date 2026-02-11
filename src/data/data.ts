@@ -686,7 +686,7 @@ const data: Record<string, Company> = {
   },
   unito: {
     name: 'Unito',
-    desc: 'Sync data between tools in real time with Unito’s no-code, two-way integrations. Keep teams aligned across Jira, Asana, ServiceNow, Smartsheet, and more.',
+    desc: "Sync data between tools in real time with Unito's no-code, two-way integrations. Keep teams aligned across Jira, Asana, ServiceNow, Smartsheet, and more.",
     link: 'https://unito.io/',
     hq: 'Montréal, QB',
     tagIds: [5, 17, 25],
