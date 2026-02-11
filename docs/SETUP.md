@@ -45,6 +45,8 @@ git remote add upstream git@github.com:canadian-software/web.git
 5. Push to your fork.
 6. Open a pull request with your changes and make sure in the description to link it to the relevant issue.
 
+You can learn more about this open-source contribution style [here](https://github.com/firstcontributions/first-contributions).
+
 ## Helpful commands
 
 To run the app locally with hot-reload:
