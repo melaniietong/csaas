@@ -31,6 +31,20 @@ cd csaas
 npm i
 ```
 
+## Making a pull request
+
+1. Fork the repo.
+2. Clone that repo to your computer.
+3. Add the original repo as your upstream.
+
+```bash
+git remote add upstream git@github.com:canadian-software/web.git
+```
+
+4. Create a branch, make your changes, and then commit.
+5. Push to your fork.
+6. Open a pull request with your changes and make sure in the description to link it to the relevant issue.
+
 ## Helpful commands
 
 To run the app locally with hot-reload:
