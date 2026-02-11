@@ -9,6 +9,7 @@ import { CATEGORY_KEYS } from '@/constants/category-keys'
 
 import content from '@/data/content-en.json'
 import countries from '@/data/countries.json'
+import tags from '@/data/tags.json'
 
 import type { PropType } from 'vue'
 import type { Company, Subprocessor } from '@/types/company'
@@ -26,6 +27,7 @@ defineProps({
 
 const categoryKeys = CATEGORY_KEYS
 const flagMap: Record<string, string> = countries as Record<string, string>
+const tagMap: Record<string, string> = tags as Record<string, string>
 const countryNames: Record<string, string> = content.countries as Record<
   string,
   string
@@ -69,6 +71,11 @@ const groupByLocation = (
     providers.sort((a, b) => (a.name || '').localeCompare(b.name || '')),
   ])
 }
+
+const getCompanyTags = (tagIds: number[] = []): string[] =>
+  tagIds
+    .map((tagId) => tagMap[String(tagId)])
+    .filter((tag): tag is string => Boolean(tag))
 </script>
 
 <template>
@@ -141,6 +148,19 @@ const groupByLocation = (
           </div>
 
           <p>{{ company.desc }}</p>
+        </div>
+
+        <div
+          v-if="getCompanyTags(company.tagIds).length > 0"
+          class="flex flex-wrap justify-center gap-2"
+        >
+          <span
+            v-for="tag in getCompanyTags(company.tagIds)"
+            :key="tag"
+            class="rounded-full bg-neutral-200 px-4 py-1 sub-label text-neutral-800"
+          >
+            {{ tag }}
+          </span>
         </div>
 
         <section
