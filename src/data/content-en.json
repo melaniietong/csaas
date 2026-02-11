@@ -30,7 +30,7 @@
     "categories": {
       "cloud": {
         "title": "Who's storing my data?",
-        "desc": "These companies host and store the core data that makes the product work, including user accounts, files, records, and databases. They control where data physically lives and which countries’ laws apply to it."
+        "desc": "These companies host and store the core data that makes the product work, including user accounts, files, records, and databases. They control where data physically lives and which countries' laws apply to it."
       },
       "payments": {
         "title": "Who's processing my payments?",
@@ -76,7 +76,7 @@
       "title": "How accurate is the information?",
       "content": [
         "We aim to keep all information as accurate and up to date as possible, but there are inherent limitations to publicly sourced research:",
-        "- We are external observers and do not have access to companies’ internal systems and operations",
+        "- We are external observers and do not have access to companies' internal systems and operations",
         "- Official sources may be incomplete or outdated.",
         "- Companies may use the same third-party services in different ways depending on their specific configurations"
       ]
@@ -85,8 +85,8 @@
       "title": "How can I support the project?",
       "content": [
         "This is a volunteer-driven, open-source project, and community support plays a big role in keeping it accurate and growing!",
-        "If you’d like to get involved, please read our Github contributing guide to get started.",
-        "You don’t need to know how to code to help out. There are many ways to contribute, from providing feedback, researching data, improving how information is communicated, to design and more. If you have an idea, we’d love to hear from you!",
+        "If you'd like to get involved, please read our Github contributing guide to get started.",
+        "You don't need to know how to code to help out. There are many ways to contribute, from providing feedback, researching data, improving how information is communicated, to design and more. If you have an idea, we'd love to hear from you!",
         "If you notice any errors on the website, please submit a GitHub issue so it can be addressed."
       ]
     }

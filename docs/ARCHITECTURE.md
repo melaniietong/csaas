@@ -11,7 +11,7 @@ Primary data lives in two files:
 - `src/data/data.ts`
 - `src/data/subprocessors.ts`
 
-While they function similarly to JSON, they’re written in TypeScript to support typing and structure validation.
+While they function similarly to JSON, they're written in TypeScript to support typing and structure validation.
 
 ### `src/data/data.ts`
 
@@ -21,7 +21,7 @@ This file contains the main company dataset.
 | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | name                                                 | Company name                                                     |
 | desc                                                 | Short company description (typically sourced from site metadata) |
-| link                                                 | Link to the company’s primary website                            |
+| link                                                 | Link to the company's primary website                            |
 | hq                                                   | Headquarters location in `(city, province abbreviation)` format  |
 | tagIds                                               | Associated company tags (defined in `tags.json`)                 |
 | competitors                                          | Array of similar or competing companies                          |
