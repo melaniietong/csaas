@@ -1087,6 +1087,33 @@ const data: Record<string, Company> = {
       analytics: [],
     },
   },
+  neoFinancial: {
+    name: 'Neo Financial',
+    desc: 'Neo Financial™ is shaping the future of how Canadians spend, save, and earn. Join now and discover a modern way to manage your money.',
+    link: 'https://www.neofinancial.com/',
+    hq: 'Calgary, AB',
+    tagIds: [2, 11, 25],
+    competitors: [
+      'KOHO',
+      'Wealthsimple',
+      'EQ Bank',
+      'Tangerine',
+      'Simplii Financial',
+      'Brim Financial',
+      'PC Financial',
+    ],
+    subprocessors: {
+      cloud: [],
+      payments: [],
+      analytics: [
+        {
+          id: 'google',
+          source: 'https://www.neofinancial.com/legal/privacy-policy',
+          lastUpdated: '2025-06-23T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
