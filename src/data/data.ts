@@ -1045,6 +1045,27 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  '01communique': {
+    name: '01 Communique',
+    desc: 'Remote access software for online meetings, web conferencing software, remote PC access software and remote IT support including help desk software and online training solutions.',
+    link: 'https://www.01com.com/',
+    hq: 'Toronto, ON',
+    tagIds: [14, 15],
+    competitors: [
+      'TeamViewer',
+      'AnyDesk',
+      'Splashtop',
+      'BeyondTrust',
+      'ConnectWise Control',
+      'Zoho Assist',
+      'ISL Online',
+    ],
+    subprocessors: {
+      cloud: [],
+      payments: [],
+      analytics: [],
+    },
+  },
 }
 
 export default data
