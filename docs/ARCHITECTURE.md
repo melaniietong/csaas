@@ -45,3 +45,7 @@ This file stores sub-processor metadata separately to prevent duplication in the
 Sub-processors are categorized by primary function using official, publicly available disclosures whenever possible. Industry-standard usage may also inform classification decisions.
 
 If no disclosure exists, the subprocessors arrays should be left empty.
+
+## Publishing
+
+Deployments are currently triggered manually by maintainers via GitHub Actions.
