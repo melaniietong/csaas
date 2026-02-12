@@ -82,6 +82,14 @@
       ]
     },
     "5": {
+      "title": "Why do you only show 3 subprocessor categories?",
+      "content": [
+        "We group subprocessors into 3 categories to make complex vendor relationships easier to understand at a glance.",
+        "Our goal is to surface the data relationships that matter most, focusing on the questions people naturally ask, like “who’s storing my data?”",
+        "Companies may rely on additional vendors beyond those listed."
+      ]
+    },
+    "6": {
       "title": "How can I support the project?",
       "content": [
         "This is a volunteer-driven, open-source project, and community support plays a big role in keeping it accurate and growing!",
