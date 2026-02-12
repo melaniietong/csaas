@@ -17,8 +17,8 @@ We welcome anyone interested in our project to jump in and help out.
 
 You don't need to know how to code to help out, there are many ways to contribute:
 
-| Non-technical examples                                                                                                                   | Technical examples                                                                                          |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Non-technical examples                                                                                                                   | Technical examples                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | UI/UX design, providing feedback, improving copy/communication, planning new features, reporting bugs, auditing our data, graphic design | Fixing bugs, adding new features, refactoring, improving performance, adding data, data optimization, creating pipelines |
 
 Get started by reading our [contributing guide](/docs/CONTRIBUTING.md).
