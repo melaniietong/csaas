@@ -970,6 +970,81 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  tucows: {
+    name: 'Tucows',
+    desc: "Tucows offers Domain Name Services, Fiber Internet Services and SaaS through our businesses Tucows Domains, Ting and Wavelo. We're a tech company headquartered in Toronto, Canada, making the internet better since 1993.",
+    link: 'https://www.tucows.com/',
+    hq: 'Toronto, ON',
+    tagIds: [16, 17, 25],
+    competitors: [
+      'GoDaddy',
+      'Namecheap',
+      'Cloudflare Registrar',
+      'Gandi',
+      'OVHcloud',
+      'DNSimple',
+      'Dynadot',
+      'Name.com',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'aws',
+          source: 'https://www.tucows.com/privacy',
+          lastUpdated: '2026-02-05T00:00:00.000Z',
+        },
+        {
+          id: 'hubspot',
+          source: 'https://www.tucows.com/privacy',
+          lastUpdated: '2026-02-05T00:00:00.000Z',
+        },
+        {
+          id: 'zendesk',
+          source: 'https://www.tucows.com/privacy',
+          lastUpdated: '2026-02-05T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'stripe',
+          source: 'https://www.tucows.com/privacy',
+          lastUpdated: '2026-02-05T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'delighted',
+          source: 'https://www.tucows.com/privacy',
+          lastUpdated: '2026-02-05T00:00:00.000Z',
+        },
+        {
+          id: 'facebook',
+          source: 'https://www.tucows.com/privacy',
+          lastUpdated: '2026-02-05T00:00:00.000Z',
+        },
+        {
+          id: 'fivetran',
+          source: 'https://www.tucows.com/privacy',
+          lastUpdated: '2026-02-05T00:00:00.000Z',
+        },
+        {
+          id: 'google',
+          source: 'https://www.tucows.com/privacy',
+          lastUpdated: '2026-02-05T00:00:00.000Z',
+        },
+        {
+          id: 'linkedin',
+          source: 'https://www.tucows.com/privacy',
+          lastUpdated: '2026-02-05T00:00:00.000Z',
+        },
+        {
+          id: 'snowflake',
+          source: 'https://www.tucows.com/privacy',
+          lastUpdated: '2026-02-05T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data

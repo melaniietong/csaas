@@ -121,6 +121,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Datadog',
     location: 'us',
   },
+  delighted: {
+    name: 'Delighted',
+    location: 'us',
+    parentCompany: {
+      name: 'Qualtrics',
+      location: 'us',
+    },
+  },
   dreamdata: {
     name: 'Dreamdata',
     location: 'us',
@@ -146,6 +154,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     location: 'us',
     parentCompany: {
       name: 'U.S. Bank',
+      location: 'us',
+    },
+  },
+  facebook: {
+    name: 'Facebook',
+    location: 'us',
+    parentCompany: {
+      name: 'Meta',
       location: 'us',
     },
   },
@@ -236,6 +252,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   launchDarkly: {
     name: 'LaunchDarkly',
     location: 'us',
+  },
+  linkedin: {
+    name: 'LinkedIn',
+    location: 'us',
+    parentCompany: {
+      name: 'Microsoft',
+      location: 'us',
+    },
   },
   looker: {
     name: 'Looker Data Sciences',
