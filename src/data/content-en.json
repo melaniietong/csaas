@@ -106,6 +106,7 @@
   "countries": {
     "regionalized": "Regionalized",
     "unknown": "Unknown",
+    "au": "Australia",
     "bg": "Bulgaria",
     "ca": "Canada",
     "ch": "Switzerland",

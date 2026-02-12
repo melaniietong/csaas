@@ -1625,6 +1625,137 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  unbounce: {
+    name: 'Unbounce',
+    desc: 'Grow your leads and sales with Unbounce. Easily create, test, and optimize landing pages, and boost conversions using AI insights—start turning traffic into customers today!',
+    link: 'https://unbounce.com/',
+    hq: 'Vancouver, BC',
+    tagIds: [1, 9, 25],
+    competitors: [
+      'Instapage',
+      'Leadpages',
+      'ClickFunnels',
+      'Landingi',
+      'Swipe Pages',
+      'Webflow',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'aws',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'atlassian',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'datadog',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'google',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'intercom',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'modsquad',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'sendgrid',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'zendesk',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'chargebee',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'netsuite',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'paypal',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'recurly',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'stripe',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'g2',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'pardot',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'segment',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'sumoLogic',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+        {
+          id: 'tableau',
+          source:
+            'https://unbounce.com/photos/Unbounce-Sub-processors_Sep_26_2024.pdf',
+          lastUpdated: '2024-09-26T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data

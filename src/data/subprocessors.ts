@@ -37,6 +37,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Appcues',
     location: 'us',
   },
+  atlassian: {
+    name: 'Atlassian',
+    location: 'au',
+  },
   auth0: {
     name: 'Auth0',
     location: 'us',
@@ -124,6 +128,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   cloudStrap: {
     name: 'CloudStrap',
     location: 'bg',
+  },
+  chargebee: {
+    name: 'ChargeBee',
+    location: 'us',
   },
   crazyEgg: {
     name: 'CrazyEgg',
@@ -239,6 +247,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   fullstory: {
     name: 'FullStory',
+    location: 'us',
+  },
+  g2: {
+    name: 'G2',
     location: 'us',
   },
   gcp: {
@@ -377,6 +389,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Metabase',
     location: 'us',
   },
+  modsquad: {
+    name: 'ModSquad',
+    location: 'us',
+  },
   microsoft: {
     name: 'Microsoft',
     location: 'us',
@@ -421,6 +437,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'OneTrust',
     location: 'us',
   },
+  netsuite: {
+    name: 'NetSuite',
+    location: 'us',
+    parentCompany: {
+      name: 'Oracle',
+      location: 'us',
+    },
+  },
   okta: {
     name: 'Okta',
     location: 'us',
@@ -435,6 +459,18 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   productboard: {
     name: 'ProductBoard',
+    location: 'us',
+  },
+  pardot: {
+    name: 'Pardot',
+    location: 'us',
+    parentCompany: {
+      name: 'Salesforce',
+      location: 'us',
+    },
+  },
+  paypal: {
+    name: 'PayPal',
     location: 'us',
   },
   profitwell: {
@@ -467,6 +503,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   retool: {
     name: 'Retool',
+    location: 'us',
+  },
+  recurly: {
+    name: 'Recurly',
     location: 'us',
   },
   salesforce: {
@@ -588,6 +628,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   twilio: {
     name: 'Twilio',
     location: 'us',
+  },
+  tableau: {
+    name: 'Tableau',
+    location: 'us',
+    parentCompany: {
+      name: 'Salesforce',
+      location: 'us',
+    },
   },
   typeform: {
     name: 'Typeform',
