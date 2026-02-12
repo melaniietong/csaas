@@ -1518,6 +1518,113 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  eSentire: {
+    name: 'eSentire',
+    desc: 'Learn how Next Level eSentire Managed Detection and Response services deliver transparent, expert-assured protection, powered by Atlas AI and built on 20+ years of proven cybersecurity expertise.',
+    link: 'https://www.esentire.com/',
+    hq: 'Waterloo, ON',
+    tagIds: [14, 25],
+    competitors: [
+      'Arctic Wolf',
+      'Secureworks',
+      'Rapid7',
+      'ReliaQuest',
+      'Red Canary',
+      'Expel',
+      'SentinelOne Vigilance',
+      'CrowdStrike Falcon Complete',
+      'IBM Security MDR',
+      'AT&T Cybersecurity',
+      'Trustwave',
+      'Optiv',
+      'GuidePoint Security',
+      'Binary Defense',
+      'Critical Start',
+      'Deepwatch',
+      'Proficio',
+      'BlueVoyant',
+      'Herjavec Group',
+      'Sophos MDR',
+      'Trend Micro Managed XDR',
+      'FireEye Mandiant',
+      'Palo Alto Networks Unit 42',
+      'BAE Systems Applied Intelligence',
+      'Darktrace',
+      'Vectra AI',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'aws',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+        {
+          id: 'serviceNow',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+        {
+          id: 'microsoft',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+        {
+          id: 'okta',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+        {
+          id: 'fortinet',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+        {
+          id: 'tenable',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+        {
+          id: 'deepInstinct',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+        {
+          id: 'crowdstrike',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+        {
+          id: 'sentinelOne',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+      ],
+      payments: [],
+      analytics: [
+        {
+          id: 'snowflake',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+        {
+          id: 'sumoLogic',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+        {
+          id: 'sixgill',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+        {
+          id: 'keycaliber',
+          source: 'https://www.esentire.com/legal/compliance',
+          lastUpdated: '2025-05-01T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data

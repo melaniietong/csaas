@@ -133,6 +133,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Crossbeam',
     location: 'us',
   },
+  crowdstrike: {
+    name: 'CrowdStrike',
+    location: 'us',
+  },
   crunchyData: {
     name: 'Crunchy Data',
     location: 'us',
@@ -155,6 +159,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   datadog: {
     name: 'Datadog',
+    location: 'us',
+  },
+  deepInstinct: {
+    name: 'Deep Instinct',
     location: 'us',
   },
   delighted: {
@@ -212,6 +220,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       name: 'Meta',
       location: 'us',
     },
+  },
+  fortinet: {
+    name: 'Fortinet',
+    location: 'us',
   },
   filestack: {
     name: 'FileStack',
@@ -295,6 +307,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   justt: {
     name: 'Justt',
+    location: 'il',
+  },
+  keycaliber: {
+    name: 'KeyCaliber',
     location: 'il',
   },
   klaviyo: {
@@ -405,6 +421,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'OneTrust',
     location: 'us',
   },
+  okta: {
+    name: 'Okta',
+    location: 'us',
+  },
   openai: {
     name: 'OpenAI',
     location: 'us',
@@ -461,6 +481,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  sentinelOne: {
+    name: 'SentinelOne',
+    location: 'us',
+  },
   segment: {
     name: 'Segment',
     location: 'us',
@@ -492,6 +516,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   sisense: {
     name: 'Sisense',
     location: 'us',
+  },
+  sixgill: {
+    name: 'Sixgill',
+    location: 'il',
+    parentCompany: {
+      name: 'Cybersixgill',
+      location: 'il',
+    },
   },
   snowflake: {
     name: 'Snowflake',
@@ -528,6 +560,14 @@ const subprocessors: Record<string, SubprocessorData> = {
       name: 'Francisco Partners',
       location: 'us',
     },
+  },
+  serviceNow: {
+    name: 'ServiceNow',
+    location: 'us',
+  },
+  tenable: {
+    name: 'Tenable',
+    location: 'us',
   },
   timekit: {
     name: 'Timekit',
