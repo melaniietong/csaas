@@ -112,7 +112,7 @@ watch(
 
 <template>
   <div
-    class="h-screen overflow-scroll bg-white px-4 pt-4 pb-8 sm:px-8 sm:pt-8 sm:pb-8 flex flex-col"
+    class="h-screen overflow-scroll bg-white px-4 pb-8 sm:px-8 flex flex-col"
   >
     <div class="sticky top-0 z-1 mb-2 py-8 bg-white">
       <div
