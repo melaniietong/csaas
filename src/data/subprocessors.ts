@@ -29,6 +29,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Anthropic',
     location: 'us',
   },
+  axiom: {
+    name: 'Axiom',
+    location: 'us',
+    parentCompany: {
+      name: 'Roper Technologies',
+      location: 'us',
+    },
+  },
   appcues: {
     name: 'Appcues',
     location: 'us',
@@ -88,6 +96,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   crazyEgg: {
     name: 'CrazyEgg',
     location: 'us',
+  },
+  crunchyData: {
+    name: 'Crunchy Data',
+    location: 'us',
+    parentCompany: {
+      name: 'Snowflake',
+      location: 'us',
+    },
   },
   customerio: {
     name: 'Customer.io',
@@ -184,6 +200,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   hubspot: {
     name: 'HubSpot',
     location: 'us',
+  },
+  humio: {
+    name: 'Humio',
+    location: 'uk',
+    parentCompany: {
+      name: 'CrowdStrike',
+      location: 'us',
+    },
   },
   infinicept: {
     name: 'Infinicept',

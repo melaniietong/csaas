@@ -907,6 +907,61 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  gadget: {
+    name: 'Gadget',
+    desc: 'The integrated development platform with everything you need to build, run, and scale web apps, stitched together from the start.',
+    link: 'https://gadget.dev/',
+    hq: 'Ottawa, ON',
+    tagIds: [],
+    competitors: [],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'humio',
+          source: 'https://gadget.dev/privacy',
+          lastUpdated: '2024-05-13T00:00:00.000Z',
+        },
+        {
+          id: 'gcp',
+          source: 'https://gadget.dev/privacy',
+          lastUpdated: '2024-05-13T00:00:00.000Z',
+        },
+        {
+          id: 'hubspot',
+          source: 'https://gadget.dev/privacy',
+          lastUpdated: '2024-05-13T00:00:00.000Z',
+        },
+        {
+          id: 'launchDarkly',
+          source: 'https://gadget.dev/privacy',
+          lastUpdated: '2024-05-13T00:00:00.000Z',
+        },
+        {
+          id: 'axiom',
+          source: 'https://gadget.dev/privacy',
+          lastUpdated: '2024-05-13T00:00:00.000Z',
+        },
+        {
+          id: 'crunchyData',
+          source: 'https://gadget.dev/privacy',
+          lastUpdated: '2024-05-13T00:00:00.000Z',
+        },
+      ],
+      payments: [],
+      analytics: [
+        {
+          id: 'cloudflare',
+          source: 'https://gadget.dev/privacy',
+          lastUpdated: '2024-05-13T00:00:00.000Z',
+        },
+        {
+          id: 'fivetran',
+          source: 'https://gadget.dev/privacy',
+          lastUpdated: '2024-05-13T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
