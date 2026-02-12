@@ -912,8 +912,16 @@ const data: Record<string, Company> = {
     desc: 'The integrated development platform with everything you need to build, run, and scale web apps, stitched together from the start.',
     link: 'https://gadget.dev/',
     hq: 'Ottawa, ON',
-    tagIds: [],
-    competitors: [],
+    tagIds: [17, 25],
+    competitors: [
+      'Supabase',
+      'Firebase',
+      'Hasura',
+      'Nhost',
+      'Appwrite',
+      'Convex',
+      'Amplify',
+    ],
     subprocessors: {
       cloud: [
         {
