@@ -1066,6 +1066,27 @@ const data: Record<string, Company> = {
       analytics: [],
     },
   },
+  'roseRocket ': {
+    name: 'Rose Rocket ',
+    desc: "Transportation's Best Platform. Rose Rocket is a customizable transportation management system with AI superpowers—designed to automate, simplify, and scale your operations. Built on a modern platform purpose-built for freight.",
+    link: 'https://www.roserocket.com/',
+    hq: 'Toronto, ON',
+    tagIds: [6, 25],
+    competitors: [
+      'Truckstop TMS',
+      'AscendTMS',
+      'Tailwind TMS',
+      'Aljex',
+      'PCS Software',
+      'ITS Dispatch',
+      'Transport Pro',
+    ],
+    subprocessors: {
+      cloud: [],
+      payments: [],
+      analytics: [],
+    },
+  },
 }
 
 export default data
