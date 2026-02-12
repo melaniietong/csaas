@@ -297,6 +297,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Metabase',
     location: 'us',
   },
+  microsoft: {
+    name: 'Microsoft',
+    location: 'us',
+  },
   mixpanel: {
     name: 'Mixpanel',
     location: 'us',
@@ -304,6 +308,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   mongodb: {
     name: 'MongoDB',
     location: 'us',
+  },
+  neverbounce: {
+    name: 'NeverBounce',
+    location: 'us',
+    parentCompany: {
+      name: 'ZoomInfo',
+      location: 'us',
+    },
   },
   openai: {
     name: 'OpenAI',
@@ -400,6 +412,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   stripe_regionalized: {
     name: 'Stripe',
     location: 'regionalized',
+  },
+  sumoLogic: {
+    name: 'Sumo Logic',
+    location: 'us',
+    parentCompany: {
+      name: 'Francisco Partners',
+      location: 'us',
+    },
   },
   timekit: {
     name: 'Timekit',

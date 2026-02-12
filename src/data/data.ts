@@ -1114,6 +1114,99 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  hootsuite: {
+    name: 'Hootsuite',
+    desc: 'Hootsuite is a social media management tool that brings scheduling, content creation, analytics, and social listening to one place.',
+    link: 'https://www.hootsuite.com/',
+    hq: 'Vancouver, BC',
+    tagIds: [3, 9, 25],
+    competitors: [
+      'Sprout Social',
+      'Buffer',
+      'Later',
+      'Agorapulse',
+      'Sendible',
+      'Zoho Social',
+      'SocialPilot',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'aws',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'twilio',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'mongodb',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'gcp_canada',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'openai',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'microsoft',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'zendesk',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'cloudflare',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'hetzner',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'datadog',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'elasticsearch',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'hubspot',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+        {
+          id: 'neverbounce',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+      ],
+      payments: [],
+      analytics: [
+        {
+          id: 'sumoLogic',
+          source: 'https://www.hootsuite.com/legal/subprocessor-list',
+          lastUpdated: '2026-01-28T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
