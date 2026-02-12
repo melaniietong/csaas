@@ -1271,6 +1271,253 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  thinkific: {
+    name: 'Thinkific',
+    desc: 'Build and sell online courses and communities with Thinkific, an all-in-one online course platform with a drag-and-drop builder, payments, and LMS tools.',
+    link: 'https://www.thinkific.com/',
+    hq: 'Vancouver, BC',
+    tagIds: [1, 21, 25],
+    competitors: [
+      'Teachable',
+      'Kajabi',
+      'Podia',
+      'LearnWorlds',
+      'TalentLMS',
+      'Docebo',
+      'Absorb LMS',
+      'Litmos',
+      'iSpring Learn',
+      'Lessonly (Seismic Learning)',
+      'Trainual',
+      'LearnDash',
+      'LifterLMS',
+      'Moodle',
+      'Canvas LMS',
+      'Blackboard Learn',
+      'Udemy Business',
+      'Skillshare',
+      'Coursera',
+      'edX',
+      'Hotmart',
+      'Gumroad',
+      'Payhip',
+      'MemberPress',
+      'Kartra',
+      'Systeme.io',
+      'ClickFunnels',
+      'Zenler',
+      'Graphy',
+      'CourseCraft',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'aws',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'google',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'apollo',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'hightouch',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'cloudflare',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'esentire',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'filestack',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'hubspot',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'lakera',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'mailgun',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'mavenAgi',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'mimecast',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'onetrust',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'netskope',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'newRelic',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'openai',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'stream',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'stripe',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'userpilot',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'wistia',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'zendesk',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'avalara',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'brightback',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'justt',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'profitwell',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'stripe',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'workday',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'baremetrics',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'breadcrumbs',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'clearbit',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'crossbeam',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'delighted',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'enjoyhq',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'fullstory',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'gong',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'looker',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'mixpanel',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'stitchData',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'typeform',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'unbounce',
+          source: 'https://www.thinkific.com/thinkificsubprocessors/',
+          lastUpdated: '2026-01-22T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data

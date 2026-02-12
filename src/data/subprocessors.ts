@@ -29,13 +29,9 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Anthropic',
     location: 'us',
   },
-  axiom: {
-    name: 'Axiom',
+  apollo: {
+    name: 'Apollo',
     location: 'us',
-    parentCompany: {
-      name: 'Roper Technologies',
-      location: 'us',
-    },
   },
   appcues: {
     name: 'Appcues',
@@ -46,6 +42,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     location: 'us',
     parentCompany: {
       name: 'Okta',
+      location: 'us',
+    },
+  },
+  avalara: {
+    name: 'Avalara',
+    location: 'us',
+    parentCompany: {
+      name: 'Vista Equity Partners',
       location: 'us',
     },
   },
@@ -65,6 +69,14 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  axiom: {
+    name: 'Axiom',
+    location: 'us',
+    parentCompany: {
+      name: 'Roper Technologies',
+      location: 'us',
+    },
+  },
   azure_regionalized: {
     name: 'Microsoft Azure',
     location: 'regionalized',
@@ -73,8 +85,20 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  baremetrics: {
+    name: 'Baremetrics',
+    location: 'us',
+  },
   braintrust: {
     name: 'Braintrust',
+    location: 'us',
+  },
+  breadcrumbs: {
+    name: 'Breadcrumbs.io',
+    location: 'us',
+  },
+  brightback: {
+    name: 'Brightback',
     location: 'us',
   },
   bugsnag: {
@@ -84,6 +108,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   clay: {
     name: 'Clay',
     location: 'us',
+  },
+  clearbit: {
+    name: 'Clearbit',
+    location: 'us',
+    parentCompany: {
+      name: 'HubSpot',
+      location: 'us',
+    },
   },
   cloudflare: {
     name: 'Cloudflare',
@@ -95,6 +127,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   crazyEgg: {
     name: 'CrazyEgg',
+    location: 'us',
+  },
+  crossbeam: {
+    name: 'Crossbeam',
     location: 'us',
   },
   crunchyData: {
@@ -157,11 +193,31 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  enjoyhq: {
+    name: 'EnjoyHQ',
+    location: 'us',
+    parentCompany: {
+      name: 'UserZoom',
+      location: 'us',
+    },
+  },
+  esentire: {
+    name: 'eSentire',
+    location: 'ca',
+  },
   facebook: {
     name: 'Facebook',
     location: 'us',
     parentCompany: {
       name: 'Meta',
+      location: 'us',
+    },
+  },
+  filestack: {
+    name: 'FileStack',
+    location: 'us',
+    parentCompany: {
+      name: 'Infragistics',
       location: 'us',
     },
   },
@@ -189,12 +245,12 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
-  google: {
-    name: 'Google',
-    location: 'us',
-  },
   gong: {
     name: 'Gong',
+    location: 'us',
+  },
+  google: {
+    name: 'Google',
     location: 'us',
   },
   grafana: {
@@ -249,6 +305,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Knock',
     location: 'us',
   },
+  lakera: {
+    name: 'Lakera',
+    location: 'ch',
+  },
   launchDarkly: {
     name: 'LaunchDarkly',
     location: 'us',
@@ -289,6 +349,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Marsello',
     location: 'nz',
   },
+  mavenAgi: {
+    name: 'Maven AGI',
+    location: 'us',
+  },
   messagebird: {
     name: 'MessageBird',
     location: 'nl',
@@ -301,12 +365,24 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Microsoft',
     location: 'us',
   },
+  mimecast: {
+    name: 'Mimecast',
+    location: 'uk',
+    parentCompany: {
+      name: 'Permira',
+      location: 'uk',
+    },
+  },
   mixpanel: {
     name: 'Mixpanel',
     location: 'us',
   },
   mongodb: {
     name: 'MongoDB',
+    location: 'us',
+  },
+  netskope: {
+    name: 'Netskope',
     location: 'us',
   },
   neverbounce: {
@@ -316,6 +392,18 @@ const subprocessors: Record<string, SubprocessorData> = {
       name: 'ZoomInfo',
       location: 'us',
     },
+  },
+  newRelic: {
+    name: 'New Relic',
+    location: 'us',
+    parentCompany: {
+      name: 'Francisco Partners',
+      location: 'us',
+    },
+  },
+  onetrust: {
+    name: 'OneTrust',
+    location: 'us',
   },
   openai: {
     name: 'OpenAI',
@@ -328,6 +416,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   productboard: {
     name: 'ProductBoard',
     location: 'us',
+  },
+  profitwell: {
+    name: 'ProfitWell',
+    location: 'us',
+    parentCompany: {
+      name: 'Paddle',
+      location: 'uk',
+    },
   },
   propay: {
     name: 'ProPay',
@@ -405,6 +501,18 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Spreedly',
     location: 'us',
   },
+  stitchData: {
+    name: 'Stitch Data',
+    location: 'us',
+    parentCompany: {
+      name: 'Talend',
+      location: 'fr',
+    },
+  },
+  stream: {
+    name: 'Stream.io',
+    location: 'us',
+  },
   stripe: {
     name: 'Stripe',
     location: 'us',
@@ -441,6 +549,22 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Twilio',
     location: 'us',
   },
+  typeform: {
+    name: 'Typeform',
+    location: 'es',
+  },
+  unbounce: {
+    name: 'Unbounce',
+    location: 'ca',
+  },
+  userpilot: {
+    name: 'Userpilot',
+    location: 'us',
+  },
+  wistia: {
+    name: 'Wistia',
+    location: 'us',
+  },
   wootric: {
     name: 'Wootric',
     location: 'us',
@@ -448,6 +572,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       name: 'InMoment',
       location: 'us',
     },
+  },
+  workday: {
+    name: 'Workday',
+    location: 'us',
   },
   zendesk: {
     name: 'Zendesk',

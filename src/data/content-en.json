@@ -108,12 +108,16 @@
     "unknown": "Unknown",
     "bg": "Bulgaria",
     "ca": "Canada",
+    "ch": "Switzerland",
     "de": "Germany",
+    "es": "Spain",
+    "fr": "France",
     "gb": "United Kingdom",
     "il": "Israel",
     "nl": "Netherlands",
     "nz": "New Zealand",
     "se": "Sweden",
+    "uk": "United Kingdom",
     "us": "United States"
   }
 }
