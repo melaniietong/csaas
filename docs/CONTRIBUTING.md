@@ -36,6 +36,28 @@ Non-technical contributors: use the issue itself to track and share your work.
 
 For technical contributors: please read our [architecture](/docs/ARCHITECTURE.md) and [setup](/docs/SETUP.md) guide first.
 
+## Issues
+
+Issues are labeled to help contributors discover tasks that align with their skills or where they’d like to get involved.
+
+| Label | Description | 
+| ---- | ---- |
+| [technical](https://github.com/canadian-software/web/issues?q=is%3Aissue%20state%3Aopen%20label%3Atechnical) | For technical tasks. Involves code changes, engineering work, or system architecture. |
+| [non-technical](https://github.com/canadian-software/web/issues?q=is%3Aissue%20state%3Aopen%20label%3Anon-technical) | For non-technical tasks. Involves research, content, design, or community work. |
+| [good first issue](https://github.com/canadian-software/web/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22) | Beginner-friendly and well-scoped for new contributors. |
+| [p-high](https://github.com/canadian-software/web/issues?q=is%3Aissue%20state%3Aopen%20label%3Ap-high) | High priority. Issues we would like to address first. |
+| [p-med](https://github.com/canadian-software/web/issues?q=is%3Aissue%20state%3Aopen%20label%3Ap-med) | Medium priority. Issues that are important, but not crucial at the moment. |
+| [p-low](https://github.com/canadian-software/web/issues?q=is%3Aissue%20state%3Aopen%20label%3Ap-low) | Low priority. Issues that are nice to haves. |
+
+Other labels include:
+
+| Label | Description | 
+| ---- | ---- |
+| [bug](https://github.com/canadian-software/web/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug) | Something is broken or not working as intended. |
+| [documentation](https://github.com/canadian-software/web/issues?q=is%3Aissue%20state%3Aopen%20label%3Adocumentation) | Improvements or additions to documentation |
+| [duplicate](https://github.com/canadian-software/web/issues?q=is%3Aissue%20state%3Aopen%20label%3Aduplicate) | This issue already exists |
+| [wontfix](https://github.com/canadian-software/web/issues?q=is%3Aissue%20state%3Aopen%20label%3Awontfix) | Issues that were acknowledged but won't be worked on for this project. |
+
 ## Maintainers
 
 Maintainers are project stewards. They oversee the codebase and review incoming contributions.
