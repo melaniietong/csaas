@@ -1207,6 +1207,70 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  wealthsimple: {
+    name: 'Wealthsimple',
+    desc: 'Advanced trading and investing, smarter spending and saving, and a credit card that gives you cash back on everything - all in one place.',
+    link: 'https://www.wealthsimple.com/',
+    hq: 'Toronto, ON',
+    tagIds: [2, 11, 25],
+    competitors: [
+      'Questrade',
+      'Qtrade Direct Investing',
+      'CI Direct Investing',
+      'BMO InvestorLine',
+      'RBC Direct Investing',
+      'TD Direct Investing',
+      'Scotia iTRADE',
+      'CIBC Investor’s Edge',
+      'National Bank Direct Brokerage',
+      'Desjardins Online Brokerage',
+      'Interactive Brokers',
+      'Fidelity Investments',
+      'Charles Schwab',
+      'Vanguard',
+      'Robinhood',
+      'SoFi Invest',
+      'Public.com',
+      'Webull',
+      'Moomoo',
+      'eToro',
+      'Trading 212',
+      'Revolut Trading',
+      'Cash App Investing',
+      'Stash',
+      'Acorns',
+      'Betterment',
+      'Wealthfront',
+      'Ellevest',
+      'Nutmeg',
+      'Moneyfarm',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'aws',
+          source:
+            'https://trust.wealthsimple.com/?itemUid=e3fae2ca-94a9-416b-b577-5c90e382df57',
+          lastUpdated: '2025-01-22T00:00:00.000Z',
+        },
+        {
+          id: 'zendesk',
+          source:
+            'https://trust.wealthsimple.com/?itemUid=e3fae2ca-94a9-416b-b577-5c90e382df57',
+          lastUpdated: '2025-01-22T00:00:00.000Z',
+        },
+      ],
+      payments: [],
+      analytics: [
+        {
+          id: 'snowflake',
+          source:
+            'https://trust.wealthsimple.com/?itemUid=e3fae2ca-94a9-416b-b577-5c90e382df57',
+          lastUpdated: '2025-01-22T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
