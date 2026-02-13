@@ -1067,7 +1067,7 @@ const data: Record<string, Company> = {
     },
   },
   'roseRocket ': {
-    name: 'Rose Rocket ',
+    name: 'Rose Rocket',
     desc: "Transportation's Best Platform. Rose Rocket is a customizable transportation management system with AI superpowers—designed to automate, simplify, and scale your operations. Built on a modern platform purpose-built for freight.",
     link: 'https://www.roserocket.com/',
     hq: 'Toronto, ON',
