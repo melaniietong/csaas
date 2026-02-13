@@ -623,7 +623,7 @@ const data: Record<string, Company> = {
       analytics: [],
     },
   },
-  freshBooks: {
+  freshbooks: {
     name: 'FreshBooks',
     desc: 'The best cloud based small business accounting software. Send invoices, track time, manage receipts, expenses, and accept credit cards.',
     link: 'https://www.freshbooks.com/',
@@ -1045,7 +1045,7 @@ const data: Record<string, Company> = {
       ],
     },
   },
-  '01communique': {
+  '01-communique': {
     name: '01 Communique',
     desc: 'Remote access software for online meetings, web conferencing software, remote PC access software and remote IT support including help desk software and online training solutions.',
     link: 'https://www.01com.com/',
@@ -1066,7 +1066,7 @@ const data: Record<string, Company> = {
       analytics: [],
     },
   },
-  'roseRocket ': {
+  'rose-rocket': {
     name: 'Rose Rocket',
     desc: "Transportation's Best Platform. Rose Rocket is a customizable transportation management system with AI superpowers—designed to automate, simplify, and scale your operations. Built on a modern platform purpose-built for freight.",
     link: 'https://www.roserocket.com/',
@@ -1087,7 +1087,7 @@ const data: Record<string, Company> = {
       analytics: [],
     },
   },
-  neoFinancial: {
+  'neo-financial': {
     name: 'Neo Financial',
     desc: 'Neo Financial™ is shaping the future of how Canadians spend, save, and earn. Join now and discover a modern way to manage your money.',
     link: 'https://www.neofinancial.com/',
@@ -1518,7 +1518,7 @@ const data: Record<string, Company> = {
       ],
     },
   },
-  eSentire: {
+  esentire: {
     name: 'eSentire',
     desc: 'Learn how Next Level eSentire Managed Detection and Response services deliver transparent, expert-assured protection, powered by Atlas AI and built on 20+ years of proven cybersecurity expertise.',
     link: 'https://www.esentire.com/',
@@ -1909,7 +1909,7 @@ const data: Record<string, Company> = {
       ],
     },
   },
-  '1QBit': {
+  '1qbit': {
     name: '1QBit',
     desc: 'We believe the future of computation requires new forms of computational hardware co-developed with software to solve high-value problems.',
     link: 'https://1qbit.com/',
@@ -1948,7 +1948,7 @@ const data: Record<string, Company> = {
       analytics: [],
     },
   },
-  dapperLabs: {
+  'dapper-labs': {
     name: 'Dapper Labs',
     desc: 'Dapper Labs builds products that bring the benefits of tokenization to everyone. Digital assets from the world’s biggest brands. Money that grows in real time. Portfolios that rebalance automatically. Yours always, accessible anytime and anywhere.',
     link: 'https://www.dapperlabs.com/',
@@ -2005,7 +2005,7 @@ const data: Record<string, Company> = {
       ],
     },
   },
-  mindBridge: {
+  mindbridge: {
     name: 'MindBridge',
     desc: 'Helping financial professionals uncover what others miss, protect margins, and make smarter decisions across the business.',
     link: 'https://www.mindbridge.ai/',
