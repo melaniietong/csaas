@@ -101,6 +101,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Breadcrumbs.io',
     location: 'us',
   },
+  bluesnap: {
+    name: 'BlueSnap',
+    location: 'us',
+  },
+  boomi: {
+    name: 'Boomi',
+    location: 'us',
+  },
   brightback: {
     name: 'Brightback',
     location: 'us',
@@ -161,6 +169,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  courier: {
+    name: 'Courier',
+    location: 'us',
+  },
   databricks_regionalized: {
     name: 'Databricks',
     location: 'regionalized',
@@ -183,6 +195,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   dreamdata: {
     name: 'Dreamdata',
+    location: 'us',
+  },
+  docusign: {
+    name: 'DocuSign',
     location: 'us',
   },
   elasticsearch: {
@@ -457,6 +473,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Pendo',
     location: 'us',
   },
+  pingIdentity: {
+    name: 'Ping Identity',
+    location: 'us',
+    parentCompany: {
+      name: 'Thoma Bravo',
+      location: 'us',
+    },
+  },
   productboard: {
     name: 'ProductBoard',
     location: 'us',
@@ -580,6 +604,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       name: 'Talend',
       location: 'fr',
     },
+  },
+  strongdm: {
+    name: 'strongDM',
+    location: 'us',
   },
   stream: {
     name: 'Stream.io',

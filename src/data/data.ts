@@ -1756,6 +1756,159 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  benevity: {
+    name: 'Benevity',
+    desc: "Transform your company's impact strategy with Benevity. Manage volunteering, donations, and grants—all in one trusted platform for corporate purpose.",
+    link: 'https://benevity.com/',
+    hq: 'Calgary, AB',
+    tagIds: [6, 25],
+    competitors: [
+      'Blackbaud',
+      'YourCause (Bonterra)',
+      'Bright Funds',
+      'CyberGrants',
+      'Millie',
+      'Deed',
+      'Percent',
+      'Submittable',
+      'Selflessly',
+      'Givinga',
+      'Charityvest',
+      'FrontStream',
+      'SmartSimple',
+      'Fluxx',
+      'WizeHive',
+      'Optimy',
+      'Alaya by Benevity competitors',
+      'VolunteerMatch',
+      'POINT',
+      'Goodera',
+      'WeSpire',
+      'EcoVadis',
+      'Charitable Impact',
+      'GrantStream',
+      'America’s Charities',
+      'Network for Good',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'aws',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'atlassian',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'boomi',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'datadog',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'docusign',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'google',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'okta',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'openai',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'mailchimp',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'strongdm',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'courier',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'zendesk',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'adyen',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'bluesnap',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'paypal',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'pendo',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'g2',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'pardot',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'segment',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'sumoLogic',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'tableau',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+        {
+          id: 'pingIdentity',
+          source: 'https://benevity.com/subprocessors',
+          lastUpdated: '2025-05-10T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
