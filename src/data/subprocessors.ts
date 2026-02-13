@@ -133,6 +133,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Circle Internet Financial',
     location: 'us',
   },
+  churnzero: {
+    name: 'ChurnZero',
+    location: 'us',
+  },
   cloudflare: {
     name: 'Cloudflare',
     location: 'us',
@@ -204,6 +208,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   docusign: {
     name: 'DocuSign',
     location: 'us',
+  },
+  docebo: {
+    name: 'Docebo',
+    location: 'ca',
   },
   elasticsearch: {
     name: 'Elasticsearch',

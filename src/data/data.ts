@@ -2005,6 +2005,87 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  mindBridge: {
+    name: 'MindBridge',
+    desc: 'Helping financial professionals uncover what others miss, protect margins, and make smarter decisions across the business.',
+    link: 'https://www.mindbridge.ai/',
+    hq: 'Ottawa, ON',
+    tagIds: [10, 11],
+    competitors: [
+      'CaseWare IDEA',
+      'ACL Analytics (Diligent HighBond)',
+      'Galvanize',
+      'AuditBoard',
+      'Workiva',
+      'Alteryx',
+      'DataSnipper',
+      'Inflo',
+      'Aider',
+      'SAP Audit Management',
+      'TeamMate Analytics',
+      'Arbutus Analyzer',
+      'BlackLine',
+      'Trintech',
+      'FloQast',
+      'AppZen',
+      'Oversight Systems',
+      'FIS Risk & Compliance',
+      'SAS Fraud Management',
+      'Oracle Risk Management Cloud',
+      'MetricStream',
+      'Resolver',
+      'LogicManager',
+      'AuditFile',
+      'Onspring',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'azure_regionalized',
+          source: 'https://www.mindbridge.ai/data-processing-addendum/annex-2/',
+          lastUpdated: '2025-07-04T00:00:00.000Z',
+        },
+        {
+          id: 'zendesk',
+          source: 'https://www.mindbridge.ai/data-processing-addendum/annex-2/',
+          lastUpdated: '2025-07-04T00:00:00.000Z',
+        },
+        {
+          id: 'docebo',
+          source: 'https://www.mindbridge.ai/data-processing-addendum/annex-2/',
+          lastUpdated: '2025-07-04T00:00:00.000Z',
+        },
+        {
+          id: 'atlassian',
+          source: 'https://www.mindbridge.ai/data-processing-addendum/annex-2/',
+          lastUpdated: '2025-07-04T00:00:00.000Z',
+        },
+        {
+          id: 'microsoft',
+          source: 'https://www.mindbridge.ai/data-processing-addendum/annex-2/',
+          lastUpdated: '2025-07-04T00:00:00.000Z',
+        },
+      ],
+      payments: [],
+      analytics: [
+        {
+          id: 'microsoft',
+          source: 'https://www.mindbridge.ai/data-processing-addendum/annex-2/',
+          lastUpdated: '2025-07-04T00:00:00.000Z',
+        },
+        {
+          id: 'churnzero',
+          source: 'https://www.mindbridge.ai/data-processing-addendum/annex-2/',
+          lastUpdated: '2025-07-04T00:00:00.000Z',
+        },
+        {
+          id: 'pendo',
+          source: 'https://www.mindbridge.ai/data-processing-addendum/annex-2/',
+          lastUpdated: '2025-07-04T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
