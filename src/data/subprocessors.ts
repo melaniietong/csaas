@@ -129,6 +129,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  circle: {
+    name: 'Circle Internet Financial',
+    location: 'us',
+  },
   cloudflare: {
     name: 'Cloudflare',
     location: 'us',

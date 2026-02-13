@@ -1948,6 +1948,63 @@ const data: Record<string, Company> = {
       analytics: [],
     },
   },
+  dapperLabs: {
+    name: 'Dapper Labs',
+    desc: 'Dapper Labs builds products that bring the benefits of tokenization to everyone. Digital assets from the world’s biggest brands. Money that grows in real time. Portfolios that rebalance automatically. Yours always, accessible anytime and anywhere.',
+    link: 'https://www.dapperlabs.com/',
+    hq: 'Vancouver, BC',
+    tagIds: [11, 22],
+    competitors: [
+      'Animoca Brands',
+      'Mythical Games',
+      'Immutable',
+      'Gala Games',
+      'Sky Mavis',
+      'Yuga Labs',
+      'OpenSea',
+      'Rarible',
+      'Magic Eden',
+      'LooksRare',
+      'SuperRare',
+      'Foundation',
+      'Zora',
+      'Enjin',
+      'Ultra',
+      'Flow Competitors Ethereum Ecosystem',
+      'Polygon Labs',
+      'Ronin Network',
+      'WAX',
+      'Tezos NFT Platform',
+      'Avalanche Gaming',
+      'Sequence (Horizon Blockchain Games)',
+      'Forte',
+      'Venly',
+      'Thirdweb',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'gcp',
+          source: 'https://accounts.meetdapper.com/terms',
+          lastUpdated: '2025-05-12T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'circle',
+          source: 'https://accounts.meetdapper.com/terms',
+          lastUpdated: '2025-05-12T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'google',
+          source: 'https://accounts.meetdapper.com/terms',
+          lastUpdated: '2025-05-12T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
