@@ -2086,6 +2086,83 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  borrowell: {
+    name: 'Borrowell',
+    desc: "1 in 10 Canadians use Borrowell to monitor their credit. No credit card or SIN needed. We're the only free credit score app made in Canada.",
+    link: 'https://borrowell.com/',
+    hq: 'Toronto, ON',
+    tagIds: [11],
+    competitors: [
+      'Credit Karma',
+      'ClearScore',
+      'Experian',
+      'Equifax',
+      'TransUnion',
+      'Credit Sesame',
+      'WalletHub',
+      'NerdWallet',
+      'Bankrate',
+      'LendingTree',
+      'Upstart',
+      'Avant',
+      'Upgrade',
+      'SoFi',
+      'Chime',
+      'Self Financial',
+      'Petal',
+      'Brigit',
+      'MoneyLion',
+      'Dave',
+      'Kikoff',
+      'Grow Credit',
+      'CreditWise (Capital One)',
+      'Rocket Money',
+      'Mint',
+      'Intuit Credit Karma',
+      'TotallyMoney',
+      'Checkmyfile',
+      'Loqbox',
+      'Perch',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'plaid',
+          source: 'https://borrowell.com/privacy-policy',
+          lastUpdated: '2025-06-25T00:00:00.000Z',
+        },
+        {
+          id: 'mx',
+          source: 'https://borrowell.com/privacy-policy',
+          lastUpdated: '2025-06-25T00:00:00.000Z',
+        },
+        {
+          id: 'veriff',
+          source: 'https://borrowell.com/privacy-policy',
+          lastUpdated: '2025-06-25T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'equifax',
+          source: 'https://borrowell.com/privacy-policy',
+          lastUpdated: '2025-06-25T00:00:00.000Z',
+        },
+        {
+          id: 'transunion',
+          source: 'https://borrowell.com/privacy-policy',
+          lastUpdated: '2025-06-25T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'google',
+          source: 'https://borrowell.com/privacy-policy',
+          lastUpdated: '2025-06-25T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data

@@ -245,6 +245,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  equifax: {
+    name: 'Equifax',
+    location: 'us',
+  },
   esentire: {
     name: 'eSentire',
     location: 'ca',
@@ -421,6 +425,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'ModSquad',
     location: 'us',
   },
+  mx: {
+    name: 'MX',
+    location: 'us',
+  },
   microsoft: {
     name: 'Microsoft',
     location: 'us',
@@ -483,6 +491,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   pendo: {
     name: 'Pendo',
+    location: 'us',
+  },
+  plaid: {
+    name: 'Plaid',
     location: 'us',
   },
   pingIdentity: {
@@ -649,6 +661,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Tenable',
     location: 'us',
   },
+  transunion: {
+    name: 'TransUnion',
+    location: 'us',
+  },
   timekit: {
     name: 'Timekit',
     location: 'us',
@@ -688,6 +704,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   userpilot: {
     name: 'Userpilot',
     location: 'us',
+  },
+  veriff: {
+    name: 'Veriff',
+    location: 'ee',
   },
   wistia: {
     name: 'Wistia',
