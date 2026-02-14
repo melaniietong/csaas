@@ -5,6 +5,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'ActiveCampaign',
     location: 'us',
   },
+  actOn: {
+    name: 'Act-On',
+    location: 'us',
+  },
   adyen: {
     name: 'Adyen',
     location: 'nl',
@@ -109,6 +113,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'BlueSnap',
     location: 'us',
   },
+  bitdefender: {
+    name: 'Bitdefender',
+    location: 'ro',
+  },
   boomi: {
     name: 'Boomi',
     location: 'us',
@@ -117,13 +125,33 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Brightback',
     location: 'us',
   },
+  btGroup: {
+    name: 'BT Group',
+    location: 'gb',
+  },
   bugsnag: {
     name: 'Bugsnag',
+    location: 'us',
+  },
+  buzzacott: {
+    name: 'Buzzacott',
+    location: 'gb',
+  },
+  caTrustPac: {
+    name: 'CA Trust PAC',
+    location: 'sg',
+  },
+  calendly: {
+    name: 'Calendly',
     location: 'us',
   },
   clay: {
     name: 'Clay',
     location: 'us',
+  },
+  clickart: {
+    name: 'ClickArt Taller De Comunicacio',
+    location: 'es',
   },
   clearbit: {
     name: 'Clearbit',
@@ -181,6 +209,14 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  cybersource: {
+    name: 'Cybersource',
+    location: 'us',
+    parentCompany: {
+      name: 'Visa',
+      location: 'us',
+    },
+  },
   courier: {
     name: 'Courier',
     location: 'us',
@@ -192,6 +228,14 @@ const subprocessors: Record<string, SubprocessorData> = {
   datadog: {
     name: 'Datadog',
     location: 'us',
+  },
+  datto: {
+    name: 'Datto (Backupify)',
+    location: 'us',
+    parentCompany: {
+      name: 'Kaseya',
+      location: 'us',
+    },
   },
   deepInstinct: {
     name: 'Deep Instinct',
@@ -212,6 +256,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   docusign: {
     name: 'DocuSign',
     location: 'us',
+  },
+  digitalPigeon: {
+    name: 'Digital Pigeon',
+    location: 'au',
   },
   docebo: {
     name: 'Docebo',
@@ -325,6 +373,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'GloboTech',
     location: 'ca',
   },
+  gurock: {
+    name: 'Gurock Software',
+    location: 'de',
+    parentCompany: {
+      name: 'Idera',
+      location: 'us',
+    },
+  },
   grafana: {
     name: 'Grafana Labs',
     location: 'us',
@@ -369,6 +425,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Intercom R&D',
     location: 'us',
   },
+  intuit: {
+    name: 'Intuit',
+    location: 'us',
+  },
   justt: {
     name: 'Justt',
     location: 'il',
@@ -376,6 +436,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   keycaliber: {
     name: 'KeyCaliber',
     location: 'il',
+  },
+  kayako: {
+    name: 'Kayako',
+    location: 'gb',
   },
   klaviyo: {
     name: 'Klaviyo',
@@ -453,6 +517,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'MX',
     location: 'us',
   },
+  miro: {
+    name: 'Miro',
+    location: 'us',
+  },
   microsoft: {
     name: 'Microsoft',
     location: 'us',
@@ -517,6 +585,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'OpenAI',
     location: 'us',
   },
+  ownBackup: {
+    name: 'OwnBackup',
+    location: 'us',
+  },
   pendo: {
     name: 'Pendo',
     location: 'us',
@@ -548,6 +620,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   paypal: {
     name: 'PayPal',
     location: 'us',
+  },
+  paysafe: {
+    name: 'Paysafe',
+    location: 'gb',
   },
   profitwell: {
     name: 'ProfitWell',
@@ -587,6 +663,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   revenuecat: {
     name: 'RevenueCat',
+    location: 'us',
+  },
+  ringcentral: {
+    name: 'RingCentral',
     location: 'us',
   },
   salesforce: {
@@ -693,6 +773,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Tenable',
     location: 'us',
   },
+  thinkific: {
+    name: 'Thinkific',
+    location: 'ca',
+  },
   tokenTransit: {
     name: 'Token Transit',
     location: 'us',
@@ -741,9 +825,21 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Userpilot',
     location: 'us',
   },
+  uservoice: {
+    name: 'UserVoice',
+    location: 'us',
+  },
   veriff: {
     name: 'Veriff',
     location: 'ee',
+  },
+  vonage: {
+    name: 'Vonage',
+    location: 'us',
+    parentCompany: {
+      name: 'Ericsson',
+      location: 'se',
+    },
   },
   wistia: {
     name: 'Wistia',
@@ -763,6 +859,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   zendesk: {
     name: 'Zendesk',
+    location: 'us',
+  },
+  zoom: {
+    name: 'Zoom',
     location: 'us',
   },
 }

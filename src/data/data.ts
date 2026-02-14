@@ -2331,6 +2331,189 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  faronics: {
+    name: 'Faronics',
+    desc: 'Faronics delivers computer management software that helps simplify, and secure multi-user computing environments with Reboot to Restore. Our suite of IT solutions ensures 100% workstation availability, and frees up IT teams from tedious technical support and software issues.',
+    link: 'https://www.faronics.com/',
+    hq: 'Vancouver, BC',
+    tagIds: [14],
+    competitors: [
+      'Deep Freeze Alternatives SmartShield',
+      'Reboot Restore Rx',
+      'RollBack Rx',
+      'Comodo Time Machine',
+      'Windows SteadyState',
+      'Clean Slate',
+      'Drive Vaccine',
+      'Toolwiz Time Freeze',
+      'Fortres Grand',
+      'NetSupport School',
+      'Lanschool',
+      'GoGuardian',
+      'Securly',
+      'Lightspeed Classroom',
+      'Impero Education Pro',
+      'Veyon',
+      'AB Tutor',
+      'Classwize',
+      'FileWave',
+      'ManageEngine Endpoint Central',
+      'Microsoft Intune',
+      'VMware Workspace ONE',
+      'Jamf',
+      'Ivanti Endpoint Manager',
+      'Absolute Secure Endpoint',
+      'Symantec Endpoint Management',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'aws',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'btGroup',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'buzzacott',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'calendly',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'caTrustPac',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'clickart',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'datto',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'docusign',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'google',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'gurock',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'kayako',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'microsoft',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'ownBackup',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'miro',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'ringcentral',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'salesforce',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'bitdefender',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'digitalPigeon',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'mailchimp',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'thinkific',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'uservoice',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'vonage',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'zoom',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'cybersource',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'intuit',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'paysafe',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+        {
+          id: 'paypal',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'actOn',
+          source: 'https://www.faronics.com/legal/sub-processors-list',
+          lastUpdated: '2024-11-19T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
