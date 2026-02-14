@@ -1084,7 +1084,13 @@ const data: Record<string, Company> = {
     subprocessors: {
       cloud: [],
       payments: [],
-      analytics: [],
+      analytics: [
+        {
+          id: 'google',
+          source: 'https://www.roserocket.com/privacy',
+          lastUpdated: '2025-10-01T00:00:00.000Z',
+        },
+      ],
     },
   },
   'neo-financial': {
