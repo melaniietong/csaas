@@ -2214,6 +2214,123 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  transit: {
+    name: 'Transit',
+    desc: 'We’re a team of developers, designers and transit nerds who believe our app can make sustainable transport more popular than ever.',
+    link: 'https://transitapp.com/',
+    hq: 'Montréal, QB',
+    tagIds: [6],
+    competitors: [
+      'Citymapper',
+      'Moovit',
+      'Google Maps',
+      'Apple Maps',
+      'Waze',
+      'HERE WeGo',
+      'Transit Stop',
+      'Rome2Rio',
+      'Komoot',
+      'MapQuest',
+      'Bing Maps',
+      'Sygic Maps',
+      'TomTom GO',
+      'Whim',
+      'Urbi',
+      'Jakdojade',
+      'DB Navigator',
+      'Trainline',
+      'TripGo',
+      'OneBusAway',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'gcp',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'aws',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'globotech',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'ngrow',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'firebase',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'helpscout',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'intercom',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'mailchimp',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'spreedly',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'stripe',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'revenuecat',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'apple',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'masabi',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'tokenTransit',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'amplitude',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+        {
+          id: 'sentry',
+          source: 'https://transitapp.com/privacy-policy',
+          lastUpdated: '2025-08-14T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data

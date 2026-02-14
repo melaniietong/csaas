@@ -25,6 +25,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Amplitude',
     location: 'us',
   },
+  apple: {
+    name: 'Apple',
+    location: 'us',
+  },
   anthropic: {
     name: 'Anthropic',
     location: 'us',
@@ -261,6 +265,14 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  firebase: {
+    name: 'Firebase',
+    location: 'us',
+    parentCompany: {
+      name: 'Google',
+      location: 'us',
+    },
+  },
   fortinet: {
     name: 'Fortinet',
     location: 'us',
@@ -309,6 +321,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Google',
     location: 'us',
   },
+  globotech: {
+    name: 'GloboTech',
+    location: 'ca',
+  },
   grafana: {
     name: 'Grafana Labs',
     location: 'us',
@@ -327,6 +343,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   hubspot: {
     name: 'HubSpot',
+    location: 'us',
+  },
+  helpscout: {
+    name: 'Help Scout',
     location: 'us',
   },
   humio: {
@@ -421,6 +441,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Metabase',
     location: 'us',
   },
+  masabi: {
+    name: 'Masabi',
+    location: 'gb',
+  },
   modsquad: {
     name: 'ModSquad',
     location: 'us',
@@ -452,6 +476,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   netskope: {
     name: 'Netskope',
     location: 'us',
+  },
+  ngrow: {
+    name: 'nGrow',
+    location: 'il',
   },
   neverbounce: {
     name: 'NeverBounce',
@@ -557,6 +585,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Recurly',
     location: 'us',
   },
+  revenuecat: {
+    name: 'RevenueCat',
+    location: 'us',
+  },
   salesforce: {
     name: 'Salesforce',
     location: 'us',
@@ -659,6 +691,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   tenable: {
     name: 'Tenable',
+    location: 'us',
+  },
+  tokenTransit: {
+    name: 'Token Transit',
     location: 'us',
   },
   transunion: {
