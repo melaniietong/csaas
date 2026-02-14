@@ -1959,7 +1959,7 @@ const data: Record<string, Company> = {
     desc: 'Dapper Labs builds products that bring the benefits of tokenization to everyone. Digital assets from the world’s biggest brands. Money that grows in real time. Portfolios that rebalance automatically. Yours always, accessible anytime and anywhere.',
     link: 'https://www.dapperlabs.com/',
     hq: 'Vancouver, BC',
-    tagIds: [11, 22],
+    tagIds: [11, 22, 26],
     competitors: [
       'Animoca Brands',
       'Mythical Games',
