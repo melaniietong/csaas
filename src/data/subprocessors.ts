@@ -597,6 +597,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Plaid',
     location: 'us',
   },
+  posthog: {
+    name: 'PostHog',
+    location: 'us',
+  },
   pingIdentity: {
     name: 'Ping Identity',
     location: 'us',
@@ -800,6 +804,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       name: 'Fidelity National Information Services',
       location: 'us',
     },
+  },
+  twitter: {
+    name: 'X',
+    location: 'us',
   },
   twilio: {
     name: 'Twilio',

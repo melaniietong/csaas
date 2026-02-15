@@ -2736,6 +2736,82 @@ const data: Record<string, Company> = {
       analytics: [],
     },
   },
+  delphia: {
+    name: 'Delphia',
+    desc: 'Invest with your data, not your money.',
+    link: 'https://delphia.com/',
+    hq: 'Toronto, ON',
+    tagIds: [11],
+    competitors: [
+      'Betterment',
+      'Wealthfront',
+      'Schwab Intelligent Portfolios',
+      'Fidelity Go',
+      'SoFi Invest',
+      'Acorns',
+      'Stash',
+      'Robinhood',
+      'M1 Finance',
+      'Public.com',
+      'Qraft Technologies',
+      'Numerai',
+      'QuantConnect',
+      'Kavout',
+      'AlphaSense',
+      'Yewno',
+      'Zest AI',
+      'Upstart',
+      'SigFig',
+      'Personal Capital',
+      'Vanguard Digital Advisor',
+      'Ellevest',
+      'Moneyfarm',
+      'Scalable Capital',
+      'Nutmeg',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'gcp',
+          source: 'https://delphia.com/privacy-policy',
+          lastUpdated: '2023-07-01T00:00:00.000Z',
+        },
+        {
+          id: 'sendgrid',
+          source: 'https://delphia.com/privacy-policy',
+          lastUpdated: '2023-07-01T00:00:00.000Z',
+        },
+      ],
+      payments: [],
+      analytics: [
+        {
+          id: 'posthog',
+          source: 'https://delphia.com/privacy-policy',
+          lastUpdated: '2023-07-01T00:00:00.000Z',
+        },
+        {
+          id: 'google',
+          source: 'https://delphia.com/privacy-policy',
+          lastUpdated: '2023-07-01T00:00:00.000Z',
+        },
+        {
+          id: 'facebook',
+          source: 'https://delphia.com/privacy-policy',
+          lastUpdated: '2023-07-01T00:00:00.000Z',
+        },
+        {
+          id: 'twitter',
+          source: 'https://delphia.com/privacy-policy',
+          lastUpdated: '2023-07-01T00:00:00.000Z',
+        },
+        {
+          id: 'sentry',
+          source: 'https://delphia.com/privacy-policy',
+          lastUpdated: '2023-07-01T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
