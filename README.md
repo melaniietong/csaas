@@ -11,6 +11,8 @@ Our mission:
 - Support the Canadian software industry by listing homegrown companies Canadians can use and build careers with.
 - Map the dependencies behind Canadian digital services so Canadians can better understand sovereignty risks and data privacy implications.
 
+Beyond the website, the project maintains an open public dataset of Canadian software companies and their data infrastructure.
+
 ## Contributing
 
 We welcome anyone interested in our project to jump in and help out.
