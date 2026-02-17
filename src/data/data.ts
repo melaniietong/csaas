@@ -3065,6 +3065,62 @@ const data: Record<string, Company> = {
       analytics: [],
     },
   },
+  fundthrough: {
+    name: 'FundThrough',
+    desc: 'Businesses in the U.S. & Canada can get paid in a day by advancing funds from unpaid invoices with online invoice financing and factoring from FundThrough.',
+    link: 'https://www.fundthrough.com/',
+    hq: 'Toronto, ON',
+    tagIds: [11],
+    competitors: [
+      'Fundbox',
+      'BlueVine',
+      'Upflow',
+      'Resolve',
+      'Settle',
+      'Wayflyer',
+      '8fig',
+      'Pipe',
+      'Capchase',
+      'Apruve',
+      'Resolve Pay',
+      'TreviPay',
+      'Balance',
+      'Kickfurther',
+      'Drip Capital',
+      'Tradewind Finance',
+      'Riviera Finance',
+      'altLINE',
+      'eCapital',
+      'RTS Financial',
+      'Paragon Financial Group',
+      'Bibby Financial Services',
+      'Triumph Business Capital',
+      'Liquid Capital',
+      'Apex Capital',
+    ],
+    subprocessors: {
+      cloud: [],
+      payments: [
+        {
+          id: 'equifax',
+          source: 'https://www.fundthrough.com/privacy-policy/',
+          lastUpdated: '2025-04-04T00:00:00.000Z',
+        },
+        {
+          id: 'transunion',
+          source: 'https://www.fundthrough.com/privacy-policy/',
+          lastUpdated: '2025-04-04T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'google',
+          source: 'https://www.fundthrough.com/privacy-policy/',
+          lastUpdated: '2025-04-04T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
