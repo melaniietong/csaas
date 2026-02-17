@@ -17,28 +17,28 @@ While they function similarly to JSON, they're written in TypeScript to support 
 
 This file contains the main company dataset.
 
-| Field                                                | Description                                                      |
-| ---------------------------------------------------- | ---------------------------------------------------------------- |
-| name                                                 | Company name                                                     |
-| desc                                                 | Short company description (typically sourced from site metadata) |
-| link                                                 | Link to the company's primary website                            |
-| hq                                                   | Headquarters location in `(city, province abbreviation)` format  |
-| tagIds                                               | Associated company tags (defined in `tags.json`)                 |
-| competitors                                          | Array of similar or competing companies                          |
-| subprocessors.[cloud/payments/analytics].id          | Reference ID from `subprocessors.ts`                             |
-| subprocessors.[cloud/payments/analytics].source      | Source link confirming vendor usage                              |
-| subprocessors.[cloud/payments/analytics].lastUpdated | UTC ISO timestamp of the source                                  |
+| Field                                                | Description                                                                                                                    | Data confidence      |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
+| `name`                                                 | Company name                                                                                                                   | Sourced              |
+| `desc`                                                 | Short company description (typically sourced from site metadata)                                                               | Sourced              |
+| `link`                                                 | Link to the company's primary website                                                                                          | Sourced              |
+| `hq`                                                   | Headquarters location in `(city, province abbreviation)` format                                                                | Sourced              |
+| `tagIds`                                               | Associated company tags (defined in `tags.json`)                                                                               | Inferred             |
+| `competitors`                                          | Array of similar or competing companies                                                                                        | Inferred             |
+| `subprocessors.[cloud/payments/analytics].id`          | Reference ID from `subprocessors.ts`                                                                                           | Sourced (normalized) |
+| `subprocessors.[cloud/payments/analytics].source`      | Source link confirming vendor usage                                                                                            | Sourced              |
+| `subprocessors.[cloud/payments/analytics].lastUpdated` | UTC ISO timestamp of the source. Usually located on the main page or in the metadata under `dateModified`, `dateUpdated`, etc. | Sourced              |
 
 ### `src/data/subprocessors.ts`
 
 This file stores sub-processor metadata separately to prevent duplication in the main dataset.
 
-| Field                  | Description                                         |
-| ---------------------- | --------------------------------------------------- |
-| name                   | Company name                                        |
-| location               | Country where the company is headquartered          |
-| parentCompany.name     | Parent company name (if applicable)                 |
-| parentCompany.location | Parent company headquarters country (if applicable) |
+| Field                  | Description                                         | Data confidence      |
+| ---------------------- | --------------------------------------------------- | -------------------- |
+| `name`                   | Company name                                        | Sourced (normalized) |
+| `location`               | Country where the company is headquartered          | Sourced              |
+| `parentCompany.name`     | Parent company name (if applicable)                 | Sourced              |
+| `parentCompany.location` | Parent company headquarters country (if applicable) | Sourced              |
 
 ### Data determination
 
