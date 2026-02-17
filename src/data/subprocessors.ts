@@ -117,6 +117,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  billingbooth: {
+    name: 'Billingbooth',
+    location: 'ca',
+  },
   bluesnap: {
     name: 'BlueSnap',
     location: 'us',
@@ -769,6 +773,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Sisense',
     location: 'us',
   },
+  simwood: {
+    name: 'Simwood',
+    location: 'gb',
+  },
   sixgill: {
     name: 'Sixgill',
     location: 'il',
@@ -900,6 +908,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   veriff: {
     name: 'Veriff',
     location: 'ee',
+  },
+  voicebooth: {
+    name: 'Voicebooth',
+    location: 'ca',
   },
   vonage: {
     name: 'Vonage',

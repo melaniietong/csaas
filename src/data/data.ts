@@ -3450,6 +3450,76 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  sangoma: {
+    name: 'Sangoma',
+    desc: 'Affordable business communications with cloud, hybrid, and on-premises options. Easily integrates voice, video, networking, and security.',
+    link: 'https://sangoma.com/',
+    hq: 'Markham, ON',
+    tagIds: [5],
+    competitors: [
+      'RingCentral',
+      '8x8',
+      'Zoom Phone',
+      'Microsoft Teams Phone',
+      'Cisco Webex Calling',
+      'Vonage',
+      'Dialpad',
+      'Nextiva',
+      'GoTo Connect',
+      'Ooma',
+      'Grasshopper',
+      'Avaya',
+      'Mitel',
+      'Alcatel-Lucent Enterprise',
+      'NEC UNIVERGE',
+      'Panasonic Business Communications',
+      '3CX',
+      'Asterisk',
+      'FreePBX',
+      'Fusion Connect',
+      'Intermedia Unite',
+      'Net2Phone',
+      'CloudTalk',
+      'Aircall',
+      'Talkdesk',
+      'Five9',
+      'Genesys Cloud',
+      'NICE CXone',
+      'Twilio Flex',
+      'Bandwidth',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'voicebooth',
+          source:
+            'https://sangoma.com/wp-content/uploads/Data-Processing-Agreement.pdf',
+          lastUpdated: '2024-10-11T00:00:00.000Z',
+        },
+        {
+          id: 'simwood',
+          source:
+            'https://sangoma.com/wp-content/uploads/Data-Processing-Agreement.pdf',
+          lastUpdated: '2024-10-11T00:00:00.000Z',
+        },
+        {
+          id: 'aws',
+          source:
+            'https://sangoma.com/wp-content/uploads/Data-Processing-Agreement.pdf',
+          lastUpdated: '2024-10-11T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'billingbooth',
+          source:
+            'https://sangoma.com/wp-content/uploads/Data-Processing-Agreement.pdf',
+          lastUpdated: '2024-10-11T00:00:00.000Z',
+        },
+      ],
+      analytics: [],
+    },
+  },
 }
 
 export default data
