@@ -3304,6 +3304,92 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  nesto: {
+    name: 'Nesto',
+    desc: "Choose nesto, Canada's trusted lender for online mortgages. Leverage the expertise of our 300+ advisors for a seamless home financing experience.",
+    link: 'https://www.nesto.ca/',
+    hq: 'Montréal, QB',
+    tagIds: [11],
+    competitors: [
+      'Better Mortgage',
+      'Rocket Mortgage',
+      'LoanDepot',
+      'LendingTree',
+      'SoFi Home Loans',
+      'Habito',
+      'Trussle',
+      'Mojo Mortgages',
+      'Credible',
+      'Bankrate',
+      'Ratehub',
+      'Pine',
+      'Perch',
+      'Homewise',
+      'LowestRates.ca',
+      'Zillow Home Loans',
+      'Redfin Mortgage',
+      'Ally Home Loans',
+      'Chase Home Lending',
+      'Wells Fargo Home Mortgage',
+      'PNC Mortgage',
+      'Guaranteed Rate',
+      'Guild Mortgage',
+      'Movement Mortgage',
+      'Fairway Independent Mortgage',
+    ],
+    subprocessors: {
+      cloud: [],
+      payments: [
+        {
+          id: 'equifax',
+          source: 'https://www.nesto.ca/privacy-policy/',
+          lastUpdated: '2025-12-24T00:00:00.000Z',
+        },
+        {
+          id: 'transunion',
+          source: 'https://www.nesto.ca/privacy-policy/',
+          lastUpdated: '2025-12-24T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'google',
+          source: 'https://www.nesto.ca/privacy-policy/',
+          lastUpdated: '2025-12-24T00:00:00.000Z',
+        },
+        {
+          id: 'smartlook',
+          source: 'https://www.nesto.ca/privacy-policy/',
+          lastUpdated: '2025-12-24T00:00:00.000Z',
+        },
+        {
+          id: 'bing',
+          source: 'https://www.nesto.ca/privacy-policy/',
+          lastUpdated: '2025-12-24T00:00:00.000Z',
+        },
+        {
+          id: 'snapchat',
+          source: 'https://www.nesto.ca/privacy-policy/',
+          lastUpdated: '2025-12-24T00:00:00.000Z',
+        },
+        {
+          id: 'linkedin',
+          source: 'https://www.nesto.ca/privacy-policy/',
+          lastUpdated: '2025-12-24T00:00:00.000Z',
+        },
+        {
+          id: 'twitter',
+          source: 'https://www.nesto.ca/privacy-policy/',
+          lastUpdated: '2025-12-24T00:00:00.000Z',
+        },
+        {
+          id: 'facebook',
+          source: 'https://www.nesto.ca/privacy-policy/',
+          lastUpdated: '2025-12-24T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data

@@ -109,6 +109,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Breadcrumbs.io',
     location: 'us',
   },
+  bing: {
+    name: 'Bing',
+    location: 'us',
+    parentCompany: {
+      name: 'Microsoft',
+      location: 'us',
+    },
+  },
   bluesnap: {
     name: 'BlueSnap',
     location: 'us',
@@ -772,6 +780,18 @@ const subprocessors: Record<string, SubprocessorData> = {
   snowflake: {
     name: 'Snowflake',
     location: 'us',
+  },
+  smartlook: {
+    name: 'Smartlook',
+    location: 'unknown',
+  },
+  snapchat: {
+    name: 'Snapchat',
+    location: 'us',
+    parentCompany: {
+      name: 'Snap',
+      location: 'us',
+    },
   },
   spreedly: {
     name: 'Spreedly',
