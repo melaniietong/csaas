@@ -87,6 +87,10 @@ If you take on a task:
 
 Contributors have lives outside the project, we understand. If you need more time, just let us know! We're happy to accommodate when expectations are clear.
 
+### Casual communication
+
+While we prefer to keep Github as the central source of all information and discussions, we do have a [channel](https://civictechto.slack.com/archives/C0AG774KL9W) in [Civic Tech Toronto's](https://civictech.ca/) Slack server where more informal chats happen. Feel free to check it out!
+
 ## Still unsure how to get started?
 
 If you're feeling stuck or unsure where to begin, don't hesitate to reach out to a maintainer. We're happy to help guide you and answer any questions!
