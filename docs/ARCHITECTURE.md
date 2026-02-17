@@ -17,8 +17,8 @@ While they function similarly to JSON, they're written in TypeScript to support 
 
 This file contains the main company dataset.
 
-| Field                                                | Description                                                                                                                    | Data confidence      |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
+| Field                                                  | Description                                                                                                                    | Data confidence      |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | -------------------- |
 | `name`                                                 | Company name                                                                                                                   | Sourced              |
 | `desc`                                                 | Short company description (typically sourced from site metadata)                                                               | Sourced              |
 | `link`                                                 | Link to the company's primary website                                                                                          | Sourced              |
@@ -33,8 +33,8 @@ This file contains the main company dataset.
 
 This file stores sub-processor metadata separately to prevent duplication in the main dataset.
 
-| Field                  | Description                                         | Data confidence      |
-| ---------------------- | --------------------------------------------------- | -------------------- |
+| Field                    | Description                                         | Data confidence      |
+| ------------------------ | --------------------------------------------------- | -------------------- |
 | `name`                   | Company name                                        | Sourced (normalized) |
 | `location`               | Country where the company is headquartered          | Sourced              |
 | `parentCompany.name`     | Parent company name (if applicable)                 | Sourced              |
