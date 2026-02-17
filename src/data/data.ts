@@ -2817,7 +2817,7 @@ const data: Record<string, Company> = {
     desc: 'Get the food you want delivered, fast. Order food delivery & take out from the best restaurants near you. Skip has over 30,000 restaurants Nationwide. Place your order now.',
     link: 'https://www.skipthedishes.com/',
     hq: 'Winnipeg, MB',
-    tagIds: [],
+    tagIds: [22],
     competitors: [
       'DoorDash',
       'Uber Eats',
