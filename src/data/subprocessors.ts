@@ -149,6 +149,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Calendly',
     location: 'us',
   },
+  cerb: {
+    name: 'Cerb',
+    location: 'us',
+  },
   clay: {
     name: 'Clay',
     location: 'us',

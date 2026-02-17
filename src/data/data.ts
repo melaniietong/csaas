@@ -3241,6 +3241,69 @@ const data: Record<string, Company> = {
       ],
     },
   },
+  audiokinetic: {
+    name: 'Audiokinetic',
+    desc: 'Audiokinetic - The global leader in interactive audio technology.',
+    link: 'https://www.audiokinetic.com/en/',
+    hq: 'Winnipeg, MB',
+    tagIds: [17],
+    competitors: [
+      'FMOD',
+      'Unity Audio',
+      'Unreal Engine Audio',
+      'CriWare (CRI Middleware)',
+      'Fabric (Tazman Audio)',
+      'ADX2',
+      'Wwise Alternatives Custom Engines',
+      'OpenAL',
+      'XAudio2',
+      'Miles Sound System',
+      'SoLoud',
+      'WWise Competitor Proprietary Engines',
+      'ODIN Voice',
+      'Agora Voice SDK',
+      'Photon Voice',
+      'Resonance Audio',
+      'Steam Audio',
+      'Meta XR Audio SDK',
+      'Microsoft Spatial Sound',
+      'Google VR Audio',
+      'Amazon Lumberyard Audio',
+      'Defold Audio Engine',
+      'Godot Audio Engine',
+      'Cocos Audio Engine',
+      'SDL Audio',
+      'PortAudio',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'cerb',
+          source: 'https://www.audiokinetic.com/en/privacy/',
+          lastUpdated: '2026-01-19T00:00:00.000Z',
+        },
+        {
+          id: 'hubspot',
+          source: 'https://www.audiokinetic.com/en/privacy/',
+          lastUpdated: '2026-01-19T00:00:00.000Z',
+        },
+      ],
+      payments: [
+        {
+          id: 'adyen',
+          source: 'https://www.audiokinetic.com/en/privacy/',
+          lastUpdated: '2026-01-19T00:00:00.000Z',
+        },
+      ],
+      analytics: [
+        {
+          id: 'google',
+          source: 'https://www.audiokinetic.com/en/privacy/',
+          lastUpdated: '2026-01-19T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data
