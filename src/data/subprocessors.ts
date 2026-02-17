@@ -121,6 +121,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Boomi',
     location: 'us',
   },
+  brevo: {
+    name: 'Brevo',
+    location: 'fr',
+  },
   brightback: {
     name: 'Brightback',
     location: 'us',
@@ -569,6 +573,10 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'OneTrust',
     location: 'us',
   },
+  oneSignal: {
+    name: 'OneSignal',
+    location: 'us',
+  },
   netsuite: {
     name: 'NetSuite',
     location: 'us',
@@ -584,6 +592,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   openai: {
     name: 'OpenAI',
     location: 'us',
+  },
+  ortto: {
+    name: 'Ortto',
+    location: 'au',
   },
   ownBackup: {
     name: 'OwnBackup',
