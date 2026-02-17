@@ -3245,7 +3245,7 @@ const data: Record<string, Company> = {
     name: 'Audiokinetic',
     desc: 'Audiokinetic - The global leader in interactive audio technology.',
     link: 'https://www.audiokinetic.com/en/',
-    hq: 'Winnipeg, MB',
+    hq: 'Montréal, QB',
     tagIds: [17],
     competitors: [
       'FMOD',
