@@ -3160,6 +3160,87 @@ const data: Record<string, Company> = {
       analytics: [],
     },
   },
+  tailscale: {
+    name: 'Tailscale',
+    desc: 'The connectivity platform for devs, IT, and security teams. Zero Trust identity-based access that deploys in minutes and scales to every resource. Start free.',
+    link: 'https://tailscale.com/',
+    hq: 'Toronto, ON',
+    tagIds: [14, 17],
+    competitors: [
+      'ZeroTier',
+      'Netmaker',
+      'Headscale',
+      'Cloudflare Zero Trust',
+      'Zscaler',
+      'Perimeter 81',
+      'NordLayer',
+      'OpenVPN',
+      'WireGuard',
+      'SoftEther VPN',
+      'Outline VPN',
+      'Teleport',
+      'StrongDM',
+      'HashiCorp Boundary',
+      'Okta Access Gateway',
+      'Palo Alto Networks Prisma Access',
+      'Cisco Secure Access',
+      'Fortinet FortiSASE',
+      'Akamai Enterprise Application Access',
+      'Citrix Secure Private Access',
+      'AWS Client VPN',
+      'Azure VPN Gateway',
+      'Google Cloud VPN',
+      'NetBird',
+      'Firezone',
+    ],
+    subprocessors: {
+      cloud: [
+        {
+          id: 'aws',
+          source: 'https://tailscale.com/dpa-subprocessors',
+          lastUpdated: '2025-09-02T00:00:00.000Z',
+        },
+        {
+          id: 'digitalocean',
+          source: 'https://tailscale.com/dpa-subprocessors',
+          lastUpdated: '2025-09-02T00:00:00.000Z',
+        },
+        {
+          id: 'hetzner',
+          source: 'https://tailscale.com/dpa-subprocessors',
+          lastUpdated: '2025-09-02T00:00:00.000Z',
+        },
+        {
+          id: 'linode',
+          source: 'https://tailscale.com/dpa-subprocessors',
+          lastUpdated: '2025-09-02T00:00:00.000Z',
+        },
+        {
+          id: 'vultr',
+          source: 'https://tailscale.com/dpa-subprocessors',
+          lastUpdated: '2025-09-02T00:00:00.000Z',
+        },
+        {
+          id: 'netActuate',
+          source: 'https://tailscale.com/dpa-subprocessors',
+          lastUpdated: '2025-09-02T00:00:00.000Z',
+        },
+        {
+          id: 'jira',
+          source: 'https://tailscale.com/dpa-subprocessors',
+          lastUpdated: '2025-09-02T00:00:00.000Z',
+        },
+      ],
+      payments: [],
+      analytics: [
+        {
+          id: 'snowflake',
+          source: 'https://tailscale.com/dpa-subprocessors',
+          lastUpdated: '2025-09-02T00:00:00.000Z',
+        },
+      ],
+    },
+  },
 }
 
 export default data

@@ -241,6 +241,10 @@ const subprocessors: Record<string, SubprocessorData> = {
       location: 'us',
     },
   },
+  digitalocean: {
+    name: 'DigitalOcean',
+    location: 'us',
+  },
   deepInstinct: {
     name: 'Deep Instinct',
     location: 'us',
@@ -429,6 +433,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     name: 'Intercom R&D',
     location: 'us',
   },
+  jira: {
+    name: 'Jira',
+    location: 'au',
+    parentCompany: {
+      name: 'Atlassian',
+      location: 'au',
+    },
+  },
   intuit: {
     name: 'Intuit',
     location: 'us',
@@ -466,6 +478,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     location: 'us',
     parentCompany: {
       name: 'Microsoft',
+      location: 'us',
+    },
+  },
+  linode: {
+    name: 'Linode',
+    location: 'us',
+    parentCompany: {
+      name: 'Akamai',
       location: 'us',
     },
   },
@@ -543,6 +563,10 @@ const subprocessors: Record<string, SubprocessorData> = {
   },
   mongodb: {
     name: 'MongoDB',
+    location: 'us',
+  },
+  netActuate: {
+    name: 'NetActuate',
     location: 'us',
   },
   netskope: {
@@ -859,6 +883,14 @@ const subprocessors: Record<string, SubprocessorData> = {
     parentCompany: {
       name: 'Ericsson',
       location: 'se',
+    },
+  },
+  vultr: {
+    name: 'Vultr',
+    location: 'us',
+    parentCompany: {
+      name: 'Constant',
+      location: 'us',
     },
   },
   wistia: {
