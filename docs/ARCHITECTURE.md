@@ -46,6 +46,8 @@ Sub-processors are categorized by primary function using official, publicly avai
 
 If no disclosure exists, the subprocessors arrays should be left empty.
 
+Prefer using a company’s commonly recognized name rather than its legal entity name. For example, use “Google” instead of “Google LLC.” This keeps the website clearer and easier for the general public to understand.
+
 ## Publishing
 
 Deployments are currently triggered manually by maintainers via GitHub Actions.
